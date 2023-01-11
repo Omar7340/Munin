@@ -5,7 +5,6 @@ services:
     build: ./container/db/
     restart: always
     environment:
-      MYSQL_DATABASE: 'CONTROLE_TRAFFIC'
       MYSQL_USER: 'dev'
       MYSQL_PASSWORD: 'dev'
       MYSQL_ROOT_PASSWORD: 'devroot'
