@@ -15,5 +15,24 @@ services:
       - '3306'
     volumes:
       - my-db:/var/lib/mysql
+
+  grafana:
+    links:
+      - db:db
+    image: grafana/grafana-oss
+    volumes:
+      - grafana-data:/var/lib/grafana
+    environment:
+      - GF_DATABASE_HOST=db:3306
+      - GF_DATABASE_NAME=db
+      - GF_DATABASE_USER=dev
+      - GF_DATABASE_PASSWORD=dev
+      - GF_DATABASE_TYPE=mysql
+      - GF_DATABASE_MAX_OPEN_CONN=300
+    ports:
+      - "3000:3000"
+    depends_on: ["db"]
+
 volumes:
   my-db:
+  grafana-data:
