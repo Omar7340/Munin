@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: 'db'
+      MYSQL_DATABASE: 'CONTROLE_TRAFFIC'
       MYSQL_USER: 'dev'
       MYSQL_PASSWORD: 'dev'
       MYSQL_ROOT_PASSWORD: 'devroot'
@@ -23,8 +23,8 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
     environment:
-      - GF_DATABASE_HOST=db:3306
-      - GF_DATABASE_NAME=db
+      - GF_DATABASE_HOST=CONTROLE_TRAFFIC:3306
+      - GF_DATABASE_NAME=CONTROLE_TRAFFIC
       - GF_DATABASE_USER=dev
       - GF_DATABASE_PASSWORD=dev
       - GF_DATABASE_TYPE=mysql
