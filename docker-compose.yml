@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   db:
-    image: mysql:5.7
+    build: ./container/db/
     restart: always
     environment:
       MYSQL_DATABASE: 'CONTROLE_TRAFFIC'
