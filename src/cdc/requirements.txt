@@ -2,4 +2,4 @@ geographiclib==2.0
 geopy==2.3.0
 mysql-connector-python==8.0.31
 paho-mqtt==1.6.1
-protobuf==3.20.1
+protobuf==3.20.2
