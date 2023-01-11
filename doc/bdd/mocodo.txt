@@ -1,0 +1,2 @@
+CAR_EVENT: id, vitesse, geo_lat, geo_lon, timestamp_record, recorded_by
+TRAFFIC_EVENT: id, type, geo_lat, geo_lon, timestamp_occur, reported_by
