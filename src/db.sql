@@ -9,7 +9,7 @@ CREATE TABLE `CAR_EVENT` (
 
 CREATE TABLE `TRAFFIC_EVENT` (
   `id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `type` VARCHAR(42),
+  `type` ENUM('accident', 'embouteillage'),
   `geo_lat` VARCHAR(42),
   `geo_lon` VARCHAR(42),
   `timestamp_occur` TIMESTAMP,
