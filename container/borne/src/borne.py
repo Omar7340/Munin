@@ -40,9 +40,6 @@ MOSQUITTO_SETTINGS = {
 ### MOSQUITTO SETINGS ###
 #########################
 
-# generate client ID with pub prefix randomly
-client_id = f'python-mqtt-{random.randint(0, 1000)}'
-
 def on_connect(client, userdata, flags, rc):
     """The callback for when the client receives a CONNACK response from the server.
     """
@@ -55,7 +52,7 @@ def on_connect(client, userdata, flags, rc):
         exit()
 
 def connect_broker():
-    client = mqtt.Client(client_id)
+    client = mqtt.Client()
     client.username_pw_set(MOSQUITTO_SETTINGS['credentials']['username'], MOSQUITTO_SETTINGS['credentials']['password'])
     
     # set function callback
