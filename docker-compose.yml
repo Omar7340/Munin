@@ -2,7 +2,7 @@ version: "3.9"
 
 x-common-variables: &common-variables
   # DATABASE 
-  MYSQL_HOST: "10.11.11.248" # A changer en fonction de la machine qui execute
+  MYSQL_HOST: grafana_db
   MYSQL_ROOT_PASSWORD: devroot
   MYSQL_DATABASE: CONTROLE_TRAFFIC
   MYSQL_USER: dev
@@ -11,8 +11,8 @@ x-common-variables: &common-variables
   # MOSQUITTO
   MOSQUITTO_HOST: mosquitto
   MOSQUITTO_PORT: 1883
-  MOSQUITTO_TOPIC_PERIODIQUE: "/data/periodique"  # "/ESP0008F21F/freemem",
-  MOSQUITTO_TOPIC_PONCTUELLE: "/data/ponctuelle"  # "/ESP0008F21F/pmc"
+  MOSQUITTO_TOPIC_PERIODIQUE: "/data/periodique"
+  MOSQUITTO_TOPIC_PONCTUELLE: "/data/ponctuelle"
   MOSQUITTO_USER: admin
   MOSQUITTO_PASSWORD: password
 
