@@ -7,7 +7,7 @@ Projet IOT CNAM Janvier 2023
 
 Pour plus de précision voir __doc/Mineur IOT - Rapport d'analyse - Projet 1 - Omar OUHBAD et Mohamed-Ali BENZINA.pdf__
 
-## Deploiement
+## Déploiement
 
 Instruction pour deployer sur une machine virtuelle remotlabz.
 
@@ -25,17 +25,4 @@ Construction et Deploiement des containers docker
 
 L'installation du conteneur de base de données prend plusieurs minutes.
 
-
-Une fois les conteneurs demarres, il faut relancer d'abord le conteneur de la borne d'acheminement.
-
-```bash
-  sudo docker container restart munin-borne-1
-```
-
-Et ensuite relancer le conteneur du Centre De Controle
-
-```bash
-  sudo docker container restart munin-cdc-1
-```
-
-Ainsi les donnees seront recuperes par le CDC dans le broker et inscrit en base.
+Une fois les conteneurs démarrés, les données sont envoyées sur le broker par la borne puis elles seront récupérés par le centre de contrôle (CDC) dans le broker et stocké dans la base de donées.
