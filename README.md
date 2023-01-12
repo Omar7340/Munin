@@ -5,7 +5,7 @@ Projet IOT CNAM Janvier 2023
 ## Sujet 
 ![Sujet du projet](doc/sujet_iot.png)
 
-Pour plus de précision voir [Rapport d'analyse](doc/'Mineur IOT - Rapport d'analyse - Projet 1 - Omar OUHBAD et Mohamed-Ali BENZINA.pdf')
+Pour plus de précision voir __doc/Mineur IOT - Rapport d'analyse - Projet 1 - Omar OUHBAD et Mohamed-Ali BENZINA.pdf__
 
 ## Deployment
 
