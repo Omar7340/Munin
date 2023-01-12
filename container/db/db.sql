@@ -1,6 +1,6 @@
 CREATE TABLE `CAR_EVENT` (
   `id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `vitesse` VARCHAR(42),
+  `vitesse` FLOAT(4,1),
   `geo_lat` VARCHAR(42),
   `geo_lon` VARCHAR(42),
   `timestamp_record` TIMESTAMP,

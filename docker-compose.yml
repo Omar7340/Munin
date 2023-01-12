@@ -76,6 +76,8 @@ services:
     depends_on:
       mosquitto:
         condition: service_started
+      cdc:
+        condition: service_started
 
 volumes:
   data: ~
