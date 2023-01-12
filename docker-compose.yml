@@ -24,6 +24,12 @@ services:
       - ./container/db:/docker-entrypoint-initdb.d
     ports:
       - 3306:3306
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
+      start_period: 5s
+      interval: 5s
+      timeout: 5s
+      retries: 55
 
   grafana:
     image: grafana/grafana-oss
@@ -39,12 +45,14 @@ services:
       - "3000:3000"
     depends_on: 
       grafana_db:
-        condition: service_completed_successfully
+        condition: service_healthy
+    volumes:
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
   
   mosquitto:
     image: eclipse-mosquitto:2
     volumes:
-      - ./config/:/mosquitto/config/:ro
+      - ./config/mosquitto/:/mosquitto/config/:ro
       - ./log_mosquitto/:/mosquitto/log/
       - data:/mosquitto/data/
     ports:
@@ -57,9 +65,9 @@ services:
     environment: *common-variables
     depends_on: 
       grafana_db:
-        condition: service_completed_successfully
+        condition: service_healthy
       mosquitto:
-        condition: service_completed_successfully
+        condition: service_started
 
   borne:
     build: ./container/borne/
@@ -67,7 +75,7 @@ services:
     environment: *common-variables
     depends_on:
       mosquitto:
-        condition: service_completed_successfully
+        condition: service_started
 
 volumes:
   data: ~
