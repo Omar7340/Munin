@@ -3,6 +3,7 @@ import os
 import logging
 import json
 import paho.mqtt.client as mqtt
+import random
 
 
 #########################
@@ -72,10 +73,10 @@ def connect_broker():
 def play_data(file):
     logging.info(f"Opening file '{file}' ...")
     try:
-        f = open(file, 'r')
+        f = open(file)
         logging.info(f"File opened: '{file}'")
         logging.info(f"Load JSON data from file: '{file}'")
-        data = json.loads(f)
+        data = json.load(f)
         send_data(data)
 
     except IOError:
@@ -84,13 +85,13 @@ def play_data(file):
         logging.info(f"Closing file: '{file}'")
         f.close()
 
-def send_data(json):
+def send_data(json_data):
     client = connect_broker()
 
     msg_count = 0
     msg_error = 0
 
-    for data in json['packets']:
+    for data in json_data['packets']:
         if data['type'] == "periodique":
             topic = MOSQUITTO_SETTINGS['topics'][0]
         elif data['type'] == "ponctuelle":
@@ -98,13 +99,15 @@ def send_data(json):
         else:
             logging.error(f"JSON Data bad construction => file: '{file}'")
             msg_error += 1
+        
+        data = json.dumps(data, indent=4)
 
         logging.info(f"Sending data to topic '{topic}' : data => '{data}'")
         result = client.publish(topic, data)
     
         status = result[0]
         if status == 0:
-            print(f"Send `{msg}` to topic `{topic}`")
+            print(f"Message `{data}` has been sent to topic `{topic}`")
         else:
             print(f"Failed to send message to topic {topic}")
     

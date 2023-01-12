@@ -2,7 +2,7 @@ version: "3.9"
 
 x-common-variables: &common-variables
   # DATABASE 
-  MYSQL_HOST: "10.11.11.203" # A changer en fonction de la machine qui execute
+  MYSQL_HOST: "10.11.11.248" # A changer en fonction de la machine qui execute
   MYSQL_ROOT_PASSWORD: devroot
   MYSQL_DATABASE: CONTROLE_TRAFFIC
   MYSQL_USER: dev
@@ -38,7 +38,8 @@ services:
     ports:
       - "3000:3000"
     depends_on: 
-      - grafana_db
+      grafana_db:
+        condition: service_completed_successfully
   
   mosquitto:
     image: eclipse-mosquitto:2
@@ -55,12 +56,18 @@ services:
     restart: on-failure
     environment: *common-variables
     depends_on: 
-      - grafana_db
-      - mosquitto
+      grafana_db:
+        condition: service_completed_successfully
+      mosquitto:
+        condition: service_completed_successfully
 
   borne:
     build: ./container/borne/
     restart: on-failure
     environment: *common-variables
     depends_on:
-      - mosquitto
+      mosquitto:
+        condition: service_completed_successfully
+
+volumes:
+  data: ~
