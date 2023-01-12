@@ -26,6 +26,16 @@ Construction et Deploiement des containers docker
 L'installation du conteneur de base de données prend plusieurs minutes.
 
 
-Donc les conteneurs de Grafana et des différents scripts redémarreront tant qu'ils ne seront pas connectés à la base.
+Une fois les conteneurs demarres, il faut relancer d'abord le conteneur de la borne d'acheminement.
 
+```bash
+  sudo docker container restart munin-borne-1
+```
 
+Et ensuite relancer le conteneur du Centre De Controle
+
+```bash
+  sudo docker container restart munin-cdc-1
+```
+
+Ainsi les donnees seront recuperes par le CDC dans le broker et inscrit en base.
