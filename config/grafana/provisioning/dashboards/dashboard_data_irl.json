@@ -1,0 +1,498 @@
+{
+    "__inputs": [
+        {
+            "name": "DS_MYSQL",
+            "label": "MySQL",
+            "description": "",
+            "type": "datasource",
+            "pluginId": "mysql",
+            "pluginName": "MySQL"
+        }
+    ],
+    "__elements": {},
+    "__requires": [
+        {
+            "type": "grafana",
+            "id": "grafana",
+            "name": "Grafana",
+            "version": "9.3.2"
+        },
+        {
+            "type": "datasource",
+            "id": "mysql",
+            "name": "MySQL",
+            "version": "1.0.0"
+        },
+        {
+            "type": "panel",
+            "id": "table",
+            "name": "Table",
+            "version": ""
+        }
+    ],
+    "annotations": {
+        "list": [
+            {
+                "builtIn": 1,
+                "datasource": {
+                    "type": "grafana",
+                    "uid": "-- Grafana --"
+                },
+                "enable": true,
+                "hide": true,
+                "iconColor": "rgba(0, 211, 255, 1)",
+                "name": "Annotations & Alerts",
+                "target": {
+                    "limit": 100,
+                    "matchAny": false,
+                    "tags": [],
+                    "type": "dashboard"
+                },
+                "type": "dashboard"
+            }
+        ]
+    },
+    "description": "Dashboard de consultation des données en temps réels",
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": null,
+    "links": [],
+    "liveNow": false,
+    "panels": [
+        {
+            "datasource": {
+                "type": "mysql",
+                "uid": "${DS_MYSQL}"
+            },
+            "description": "Liste des accidents",
+            "fieldConfig": {
+                "defaults": {
+                    "color": {
+                        "mode": "thresholds"
+                    },
+                    "custom": {
+                        "align": "auto",
+                        "displayMode": "auto",
+                        "filterable": true,
+                        "inspect": false
+                    },
+                    "mappings": [],
+                    "thresholds": {
+                        "mode": "absolute",
+                        "steps": [
+                            {
+                                "color": "green",
+                                "value": null
+                            },
+                            {
+                                "color": "red",
+                                "value": 80
+                            }
+                        ]
+                    }
+                },
+                "overrides": []
+            },
+            "gridPos": {
+                "h": 8,
+                "w": 12,
+                "x": 0,
+                "y": 0
+            },
+            "id": 6,
+            "options": {
+                "footer": {
+                    "enablePagination": true,
+                    "fields": "",
+                    "reducer": [
+                        "sum"
+                    ],
+                    "show": false
+                },
+                "showHeader": true
+            },
+            "pluginVersion": "9.3.2",
+            "targets": [
+                {
+                    "dataset": "CONTROLE_TRAFFIC",
+                    "datasource": {
+                        "type": "mysql",
+                        "uid": "${DS_MYSQL}"
+                    },
+                    "editorMode": "builder",
+                    "format": "table",
+                    "rawSql": "SELECT * FROM CONTROLE_TRAFFIC.TRAFFIC_EVENT WHERE type = 'accident' LIMIT 50 ",
+                    "refId": "A",
+                    "sql": {
+                        "columns": [
+                            {
+                                "parameters": [
+                                    {
+                                        "name": "*",
+                                        "type": "functionParameter"
+                                    }
+                                ],
+                                "type": "function"
+                            }
+                        ],
+                        "groupBy": [
+                            {
+                                "property": {
+                                    "type": "string"
+                                },
+                                "type": "groupBy"
+                            }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                            "children1": [
+                                {
+                                    "id": "8b989a99-0123-4456-b89a-b185a740ab35",
+                                    "properties": {
+                                        "field": "type",
+                                        "operator": "equal",
+                                        "value": [
+                                            "accident"
+                                        ],
+                                        "valueSrc": [
+                                            "value"
+                                        ],
+                                        "valueType": [
+                                            "text"
+                                        ]
+                                    },
+                                    "type": "rule"
+                                }
+                            ],
+                            "id": "9b9b89ab-89ab-4cde-b012-3185a7312ab2",
+                            "type": "group"
+                        },
+                        "whereString": "type = 'accident'"
+                    },
+                    "table": "TRAFFIC_EVENT"
+                }
+            ],
+            "title": "Accidents",
+            "type": "table"
+        },
+        {
+            "datasource": {
+                "type": "mysql",
+                "uid": "${DS_MYSQL}"
+            },
+            "description": "Liste des embouteillages",
+            "fieldConfig": {
+                "defaults": {
+                    "color": {
+                        "mode": "thresholds"
+                    },
+                    "custom": {
+                        "align": "auto",
+                        "displayMode": "auto",
+                        "filterable": true,
+                        "inspect": false
+                    },
+                    "mappings": [],
+                    "thresholds": {
+                        "mode": "absolute",
+                        "steps": [
+                            {
+                                "color": "green",
+                                "value": null
+                            },
+                            {
+                                "color": "red",
+                                "value": 80
+                            }
+                        ]
+                    }
+                },
+                "overrides": []
+            },
+            "gridPos": {
+                "h": 8,
+                "w": 12,
+                "x": 12,
+                "y": 0
+            },
+            "id": 7,
+            "options": {
+                "footer": {
+                    "enablePagination": true,
+                    "fields": "",
+                    "reducer": [
+                        "sum"
+                    ],
+                    "show": false
+                },
+                "showHeader": true
+            },
+            "pluginVersion": "9.3.2",
+            "targets": [
+                {
+                    "dataset": "CONTROLE_TRAFFIC",
+                    "datasource": {
+                        "type": "mysql",
+                        "uid": "${DS_MYSQL}"
+                    },
+                    "editorMode": "builder",
+                    "format": "table",
+                    "rawSql": "SELECT * FROM CONTROLE_TRAFFIC.TRAFFIC_EVENT WHERE type = 'embouteillage' LIMIT 50 ",
+                    "refId": "A",
+                    "sql": {
+                        "columns": [
+                            {
+                                "parameters": [
+                                    {
+                                        "name": "*",
+                                        "type": "functionParameter"
+                                    }
+                                ],
+                                "type": "function"
+                            }
+                        ],
+                        "groupBy": [
+                            {
+                                "property": {
+                                    "type": "string"
+                                },
+                                "type": "groupBy"
+                            }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                            "children1": [
+                                {
+                                    "id": "8b989a99-0123-4456-b89a-b185a740ab35",
+                                    "properties": {
+                                        "field": "type",
+                                        "operator": "equal",
+                                        "value": [
+                                            "embouteillage"
+                                        ],
+                                        "valueSrc": [
+                                            "value"
+                                        ],
+                                        "valueType": [
+                                            "text"
+                                        ]
+                                    },
+                                    "type": "rule"
+                                }
+                            ],
+                            "id": "9b9b89ab-89ab-4cde-b012-3185a7312ab2",
+                            "type": "group"
+                        },
+                        "whereString": "type = 'embouteillage'"
+                    },
+                    "table": "TRAFFIC_EVENT"
+                }
+            ],
+            "title": "Embouteillages",
+            "type": "table"
+        },
+        {
+            "datasource": {
+                "type": "mysql",
+                "uid": "${DS_MYSQL}"
+            },
+            "description": "Liste des données périodiques",
+            "fieldConfig": {
+                "defaults": {
+                    "color": {
+                        "mode": "thresholds"
+                    },
+                    "custom": {
+                        "align": "auto",
+                        "displayMode": "auto",
+                        "filterable": true,
+                        "inspect": false
+                    },
+                    "mappings": [],
+                    "thresholds": {
+                        "mode": "absolute",
+                        "steps": [
+                            {
+                                "color": "green",
+                                "value": null
+                            },
+                            {
+                                "color": "red",
+                                "value": 80
+                            }
+                        ]
+                    }
+                },
+                "overrides": []
+            },
+            "gridPos": {
+                "h": 9,
+                "w": 12,
+                "x": 0,
+                "y": 8
+            },
+            "id": 2,
+            "options": {
+                "footer": {
+                    "enablePagination": true,
+                    "fields": "",
+                    "reducer": [
+                        "sum"
+                    ],
+                    "show": false
+                },
+                "showHeader": true
+            },
+            "pluginVersion": "9.3.2",
+            "targets": [
+                {
+                    "dataset": "CONTROLE_TRAFFIC",
+                    "datasource": {
+                        "type": "mysql",
+                        "uid": "${DS_MYSQL}"
+                    },
+                    "editorMode": "builder",
+                    "format": "table",
+                    "rawSql": "SELECT * FROM CONTROLE_TRAFFIC.CAR_EVENT ORDER BY id DESC LIMIT 50 ",
+                    "refId": "A",
+                    "sql": {
+                        "columns": [
+                            {
+                                "parameters": [
+                                    {
+                                        "name": "*",
+                                        "type": "functionParameter"
+                                    }
+                                ],
+                                "type": "function"
+                            }
+                        ],
+                        "groupBy": [],
+                        "limit": 50,
+                        "orderBy": {
+                            "property": {
+                                "name": "id",
+                                "type": "string"
+                            },
+                            "type": "property"
+                        },
+                        "orderByDirection": "DESC"
+                    },
+                    "table": "CAR_EVENT"
+                }
+            ],
+            "title": "Données périodique",
+            "type": "table"
+        },
+        {
+            "datasource": {
+                "type": "mysql",
+                "uid": "${DS_MYSQL}"
+            },
+            "description": "Liste des données ponctuelle",
+            "fieldConfig": {
+                "defaults": {
+                    "color": {
+                        "mode": "thresholds"
+                    },
+                    "custom": {
+                        "align": "auto",
+                        "displayMode": "auto",
+                        "filterable": true,
+                        "inspect": false
+                    },
+                    "mappings": [],
+                    "thresholds": {
+                        "mode": "absolute",
+                        "steps": [
+                            {
+                                "color": "green",
+                                "value": null
+                            },
+                            {
+                                "color": "red",
+                                "value": 80
+                            }
+                        ]
+                    }
+                },
+                "overrides": []
+            },
+            "gridPos": {
+                "h": 8,
+                "w": 12,
+                "x": 12,
+                "y": 8
+            },
+            "id": 4,
+            "options": {
+                "footer": {
+                    "enablePagination": true,
+                    "fields": "",
+                    "reducer": [
+                        "sum"
+                    ],
+                    "show": false
+                },
+                "showHeader": true
+            },
+            "pluginVersion": "9.3.2",
+            "targets": [
+                {
+                    "dataset": "CONTROLE_TRAFFIC",
+                    "datasource": {
+                        "type": "mysql",
+                        "uid": "${DS_MYSQL}"
+                    },
+                    "editorMode": "builder",
+                    "format": "table",
+                    "rawSql": "SELECT * FROM CONTROLE_TRAFFIC.TRAFFIC_EVENT LIMIT 50 ",
+                    "refId": "A",
+                    "sql": {
+                        "columns": [
+                            {
+                                "parameters": [
+                                    {
+                                        "name": "*",
+                                        "type": "functionParameter"
+                                    }
+                                ],
+                                "type": "function"
+                            }
+                        ],
+                        "groupBy": [
+                            {
+                                "property": {
+                                    "type": "string"
+                                },
+                                "type": "groupBy"
+                            }
+                        ],
+                        "limit": 50
+                    },
+                    "table": "TRAFFIC_EVENT"
+                }
+            ],
+            "title": "Données ponctuelle",
+            "type": "table"
+        }
+    ],
+    "refresh": "1m",
+    "schemaVersion": 37,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+        "list": []
+    },
+    "time": {
+        "from": "now-6h",
+        "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "",
+    "title": "Données en temps réels",
+    "uid": "Zrh_5E24k",
+    "version": 2,
+    "weekStart": ""
+}
