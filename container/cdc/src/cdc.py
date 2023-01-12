@@ -1,15 +1,12 @@
-# Deux grandes tâches qui s'executent en parellèle (Thread)
-#  - Connexion au fil mosquito et récupération des données puis stockage dans la bdd
-#  - Ecoute sur la bdd et dès qu'il y a un ajout dans la bdd executer les analyse
-from signal import signal, SIGINT
-from sys import exit
 import paho.mqtt.client as mqtt
+from datetime import datetime
 import mysql.connector
+import geopy.distance
+from sys import exit
 import threading
 import logging
-from datetime import datetime
 import json
-import geopy.distance
+import os
 
 
 #########################
@@ -30,23 +27,22 @@ logging.basicConfig(
 ##############################
 
 DATABASE = mysql.connector.connect(
-    host="grafana_db",
-    user="dev",
-    password="dev",
-    database="CONTROLE_TRAFFIC"
+    host=os.environ['MYSQL_HOST'],
+    user=os.environ['MYSQL_USER'],
+    password=os.environ['MYSQL_PASSWORD'],
+    database=os.environ['MYSQL_DATABASE']
 )
 
 MOSQUITTO_SETTINGS = {
-    "server": "test.mosquitto.org",
-    "port": 1883,
+    "server": os.environ['MOSQUITTO_HOST'],
+    "port": int(os.environ['MOSQUITTO_PORT']),
     "topics": [
-        "/data/periodique",
-        "/data/ponctuelle",
+        os.environ['MOSQUITTO_TOPIC_PERIODIQUE'],
+        os.environ['MOSQUITTO_TOPIC_PONCTUELLE']
     ],
-    "client_id": "cdc",
     "credentials": {
-        "username": "admin",
-        "password": "admin",
+        "username": os.environ['MOSQUITTO_USER'],
+        "password": os.environ['MOSQUITTO_PASSWORD'],
     }
 }
 
@@ -65,7 +61,7 @@ def on_connect(client, userdata, flags, rc):
         logging.info(f"Attempt to connect to topics...")
         for topic in MOSQUITTO_SETTINGS['topics']:
             client.subscribe(topic)
-            logging.info(f"Client '{MOSQUITTO_SETTINGS['client_id']}' connected to topic '{topic}'")
+            logging.info(f"Client connected to topic '{topic}'")
     else:
         logging.error(f"Failed to MQTT Broker '{MOSQUITTO_SETTINGS['server']}:{MOSQUITTO_SETTINGS['port']}', return code {rc}\n")
         exit()
@@ -114,24 +110,29 @@ def update_database(topic, data):
     if "periodique" in topic:
         logging.info(f"Data type is 'periodique'.")
         sql = "INSERT INTO CAR_EVENT (vitesse, geo_lat, geo_lon, timestamp_record, recorded_by) VALUES (%s, %s, %s, %s, %s)"
-        val = (data['vitesse'], data['geo']['lat'], data['geo']['lon'], data['timestamp'], data['immatriculation'])
+        val = (data['vitesse'], data['geo']['lat'], data['geo']['lon'], datetime.fromtimestamp(int(data['timestamp'])), data['immatriculation'])
     elif "ponctuelle" in topic:
         logging.info(f"Data type is 'ponctuelle'.")
-        sql = "INSERT INTO TRAFFIC_EVENT (type, geo_lat, geo_lon, timestamp_occur, recorded_by) VALUES (%s, %s, %s, %s, %s)"
-        type_event = "accident" if data['accident'] else "accident"
-        val = (type_event, data['geo']['lat'], data['geo']['lon'], data['timestamp'], data['immatriculation'])
-        
-    mycursor.execute(sql, val)
-    DATABASE.commit()
+        sql = "INSERT INTO TRAFFIC_EVENT (type, geo_lat, geo_lon, timestamp_occur, reported_by) VALUES (%s, %s, %s, %s, %s)"
+        type_event = "accident" if bool(data['accident']) else "accident"
+        val = (type_event, data['geo']['lat'], data['geo']['lon'], datetime.fromtimestamp(int(data['timestamp'])), data['immatriculation'])
+    else:
+        sql = None
+        val = None
     
-    logging.info(f"Data sent by car registered '{data['immatriculation']}' saved.")
+    if sql and val: 
+        mycursor.execute(sql, val)
+        DATABASE.commit()
+        logging.info(f"Data sent by car registered '{data['immatriculation']}' saved.")
+    else:
+        logging.warning(f"Data sent by car registered '{data['immatriculation']}' not saved.")
     
 
 ####################
 ### ANALYSE DATA ###
 ####################
 
-
+# TODO : Add a event who execute the function if a new rows is added
 def analyse_data():
     """ Analyse data to detected traffic event
     """
@@ -143,11 +144,10 @@ def analyse_data():
         SELECT * FROM CAR_EVENT 
             WHERE 
                 vitesse < 90 AND 
-                analysed = 0 AND
+                analyzed = 0 AND
                 timestamp_record >= NOW() - INTERVAL 10 MINUTE
             ORDER BY timestamp_record DESC 
             LIMIT 100 
-            GROUP BY(recorded_by)
     """
     mycursor.execute(sql)
     all_car_event = mycursor.fetchall()
@@ -156,33 +156,33 @@ def analyse_data():
     logging.info(f"Analysing data to find traffic event to signale...")
     blacklist_tmp = []
     nb_traffic_event_find = 0
-    for item in all_car_event:
+    for item in all_car_event:        
         # if car event is not yet blacklisted
-        if item['id'] not in blacklist_tmp:
+        if item[0] not in blacklist_tmp:
             car_event = [item]
+            
+            # blacklist temporary car event to avoid analyzing a second time
+            blacklist_tmp.append(item[0])
             
             # compare the car event with the others car events
             for other in all_car_event:
-                coords_item = (item['geo_lat'], item['geo_lon'])
-                coords_other = (other['geo_lat'], other['geo_lon'])
-                
-                # check the distance of the two cars events is lower than 500 meters
-                if geopy.distance.geodesic(coords_item, coords_other).m <= 500:
-                    car_event.append(other)
+                if other[0] not in blacklist_tmp:
+                    coords_item = (item[2], item[3])
+                    coords_other = (other[2], other[3])
+                    
+                    # check the distance of the two cars events is lower than 500 meters
+                    if geopy.distance.geodesic(coords_item, coords_other).m <= 500:
+                        car_event.append(other)
             
             # check if there are at least 3 car events for create a traffic event (embouteillage)
             if len(car_event) >= 3:
                 # create a traffic event (embouteillage)
-                create_traffic_event("embouteillage", car_event[0]['geo_lat'], car_event[0]['geo_lon'], car_event[0]['timestamp_record'], "cdc")
+                create_traffic_event("embouteillage", car_event[0][2], car_event[0][3], car_event[0][4], "cdc")
                 # update counter of traffic event created
                 nb_traffic_event_find += 1
                 # disable car events to avoid analyzing them a second time
                 for event in car_event:
-                    set_car_event_analysed(event['id'])
-                
-            
-            # blacklist temporary car event to avoid analyzing a second time
-            blacklist_tmp.append(item['id'])
+                    set_car_event_analyzed(event[0])            
     
     logging.info(f"Data analysis completed.")
     logging.info(f"Number of traffic events created : {nb_traffic_event_find}")
@@ -202,19 +202,19 @@ def create_traffic_event(type_event, lat, lon, timestamp, reported_by):
     """
     mycursor = DATABASE.cursor()
     
-    sql = "INSERT INTO TRAFFIC_EVENT (type, geo_lat, geo_lon, timestamp_occur, recorded_by) VALUES (%s, %s, %s, %s, %s)"
+    sql = "INSERT INTO TRAFFIC_EVENT (type, geo_lat, geo_lon, timestamp_occur, reported_by) VALUES (%s, %s, %s, %s, %s)"
     val = (type_event, lat, lon, timestamp, reported_by)
 
     mycursor.execute(sql, val)
     DATABASE.commit()
 
 
-def set_car_event_analysed(id):
-    """Udpate car event to analysed
+def set_car_event_analyzed(id):
+    """Update car event to analyzed
     
     Parameter:
     ----------
-        id (str): identifier of the car event 
+        id (int): identifier of the car event 
         
     """
     
@@ -222,10 +222,10 @@ def set_car_event_analysed(id):
     
     sql = """
         UPDATE CAR_EVENT 
-            SET analysed = 1 
+            SET analyzed = 1 
                 WHERE id = %s
     """
-    val = (id)
+    val = (id,)
 
     mycursor.execute(sql, val)
     DATABASE.commit()
