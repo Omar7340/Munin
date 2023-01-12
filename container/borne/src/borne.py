@@ -76,11 +76,11 @@ def play_data(file):
         data = json.load(f)
         send_data(data)
 
-    except IOError:
-        logging.error(f"Failed to find or read: '{file}'")
-    finally:
         logging.info(f"Closing file: '{file}'")
         f.close()
+
+    except IOError:
+        logging.error(f"Failed to find or read: '{file}'")
 
 def send_data(json_data):
     client = connect_broker()

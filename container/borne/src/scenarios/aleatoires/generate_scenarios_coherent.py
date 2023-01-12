@@ -2,6 +2,7 @@ from datetime import datetime
 import string
 import random
 import json
+import sys
 
 def generate_coordinates():
     res = { "lat": round(random.uniform(44.5, 45), 6), "lon": round(random.uniform(4.8, 5), 6)}
@@ -108,7 +109,7 @@ def generate_packet_ponct(close=False):
     
     
 
-def generate_file(n_perio=30, n_ponct=9, n_pont_close=3, n_embouteillage=5):
+def generate_file(n_perio=30, n_ponct=9, n_pont_close=3, n_embouteillage=5, filename=False):
     """Generate file with desired proportion of datas
 
     Args:
@@ -136,5 +137,30 @@ def generate_file(n_perio=30, n_ponct=9, n_pont_close=3, n_embouteillage=5):
 
     # json to file
     json_object = json.dumps(res, indent=4)
-    with open(f"DATAS_ALEA_MIX_{n_perio}_{n_ponct}_{n_embouteillage}.json", "w") as outfile:
+
+    if filename == False:
+        filename = f"DATAS_ALEA_MIX_{n_perio}_{n_ponct}_{n_pont_close}_{n_embouteillage}.json"
+    
+    with open(filename, "w") as outfile:
         outfile.write(json_object)
+
+############
+### MAIN ###
+############
+
+
+def run():
+    """ Execute program generate
+    """
+    if len(sys.argv) > 1:
+        arg_names = ['command', 'n_perio', 'n_ponct', 'n_pont_close', 'n_embouteillage', 'filename']
+        args = dict(zip(arg_names, sys.argv))
+
+        generate_file(int(args['n_perio']), int(args['n_ponct']), int(args['n_pont_close']), int(args['n_embouteillage']), args['filename'])
+    else:
+        # Generation du fichier avec des parametres par defaut
+        generate_file()
+
+
+if __name__ == '__main__':
+    run()
