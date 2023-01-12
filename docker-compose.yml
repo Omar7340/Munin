@@ -9,12 +9,12 @@ x-common-variables: &common-variables
   MYSQL_PASSWORD: dev
 
   # MOSQUITTO
-  MOSQUITTO_HOST: test.mosquitto.org
+  MOSQUITTO_HOST: mosquitto
   MOSQUITTO_PORT: 1883
   MOSQUITTO_TOPIC_PERIODIQUE: "/data/periodique"  # "/ESP0008F21F/freemem",
   MOSQUITTO_TOPIC_PONCTUELLE: "/data/ponctuelle"  # "/ESP0008F21F/pmc"
   MOSQUITTO_USER: admin
-  MOSQUITTO_PASSWORD: admin
+  MOSQUITTO_PASSWORD: password
 
 services:
   grafana_db:
@@ -39,13 +39,28 @@ services:
       - "3000:3000"
     depends_on: 
       - grafana_db
+  
+  mosquitto:
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./config/:/mosquitto/config/:ro
+      - ./log_mosquitto/:/mosquitto/log/
+      - data:/mosquitto/data/
+    ports:
+      - 1883:1883
+      - 9001:9001
     
   cdc:
     build: ./container/cdc/
     restart: on-failure
     environment: *common-variables
+    depends_on: 
+      - grafana_db
+      - mosquitto
 
   borne:
     build: ./container/borne/
     restart: on-failure
     environment: *common-variables
+    depends_on:
+      - mosquitto
