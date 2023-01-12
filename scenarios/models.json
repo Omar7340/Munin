@@ -12,7 +12,7 @@
         },
         {
             "type": "ponctuelle",
-            "accident": "true",
+            "accident": true,
             "geo": {
                 "lat": "43.174797",
                 "lon": "16.441231"

@@ -1,0 +1,5004 @@
+{
+    "packets": [
+        {
+            "type": "periodique",
+            "vitesse": 20.1,
+            "geo": {
+                "lat": 43.862694,
+                "lon": 16.78382
+            },
+            "timestamp": "1669721362",
+            "immatriculation": "IS-876-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.4,
+            "geo": {
+                "lat": 43.377942,
+                "lon": 16.522948
+            },
+            "timestamp": "1668880684",
+            "immatriculation": "AD-610-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 117.1,
+            "geo": {
+                "lat": 43.94831,
+                "lon": 16.939791
+            },
+            "timestamp": "1669281115",
+            "immatriculation": "AN-342-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.8,
+            "geo": {
+                "lat": 43.205929,
+                "lon": 16.069915
+            },
+            "timestamp": "1643097456",
+            "immatriculation": "EH-954-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.1,
+            "geo": {
+                "lat": 43.645447,
+                "lon": 16.080277
+            },
+            "timestamp": "1669312102",
+            "immatriculation": "AH-698-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.8,
+            "geo": {
+                "lat": 43.397285,
+                "lon": 16.615772
+            },
+            "timestamp": "1650429561",
+            "immatriculation": "AN-437-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 76.5,
+            "geo": {
+                "lat": 43.041946,
+                "lon": 16.525016
+            },
+            "timestamp": "1647544339",
+            "immatriculation": "PI-439-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 70.6,
+            "geo": {
+                "lat": 43.583355,
+                "lon": 16.883741
+            },
+            "timestamp": "1646433426",
+            "immatriculation": "IF-417-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.7,
+            "geo": {
+                "lat": 43.427792,
+                "lon": 16.038361
+            },
+            "timestamp": "1643263873",
+            "immatriculation": "OH-968-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.7,
+            "geo": {
+                "lat": 43.021642,
+                "lon": 16.212498
+            },
+            "timestamp": "1643928196",
+            "immatriculation": "HA-418-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 83.1,
+            "geo": {
+                "lat": 43.409613,
+                "lon": 16.990179
+            },
+            "timestamp": "1650219328",
+            "immatriculation": "AH-674-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.8,
+            "geo": {
+                "lat": 43.710846,
+                "lon": 16.087747
+            },
+            "timestamp": "1645842350",
+            "immatriculation": "US-679-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 120.6,
+            "geo": {
+                "lat": 43.530835,
+                "lon": 16.373429
+            },
+            "timestamp": "1657681129",
+            "immatriculation": "HE-769-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 29.7,
+            "geo": {
+                "lat": 43.589639,
+                "lon": 16.583772
+            },
+            "timestamp": "1642907258",
+            "immatriculation": "IT-087-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 4.4,
+            "geo": {
+                "lat": 43.571391,
+                "lon": 16.480298
+            },
+            "timestamp": "1650457901",
+            "immatriculation": "HE-889-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 0.3,
+            "geo": {
+                "lat": 43.372054,
+                "lon": 16.859459
+            },
+            "timestamp": "1664866234",
+            "immatriculation": "HO-987-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 22.6,
+            "geo": {
+                "lat": 43.565137,
+                "lon": 16.614893
+            },
+            "timestamp": "1650394666",
+            "immatriculation": "HA-584-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.1,
+            "geo": {
+                "lat": 43.114156,
+                "lon": 16.178239
+            },
+            "timestamp": "1670555202",
+            "immatriculation": "IF-411-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.5,
+            "geo": {
+                "lat": 43.261977,
+                "lon": 16.977915
+            },
+            "timestamp": "1660775676",
+            "immatriculation": "MY-419-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 33.5,
+            "geo": {
+                "lat": 43.765968,
+                "lon": 16.923266
+            },
+            "timestamp": "1654466289",
+            "immatriculation": "RE-621-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 127.1,
+            "geo": {
+                "lat": 43.898088,
+                "lon": 16.299851
+            },
+            "timestamp": "1667001386",
+            "immatriculation": "AS-620-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 72.7,
+            "geo": {
+                "lat": 43.984799,
+                "lon": 16.843777
+            },
+            "timestamp": "1646054382",
+            "immatriculation": "BY-995-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 14.7,
+            "geo": {
+                "lat": 43.018614,
+                "lon": 16.508484
+            },
+            "timestamp": "1644841610",
+            "immatriculation": "CS-697-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.4,
+            "geo": {
+                "lat": 43.303272,
+                "lon": 16.161782
+            },
+            "timestamp": "1652835249",
+            "immatriculation": "ON-220-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 85.4,
+            "geo": {
+                "lat": 43.915945,
+                "lon": 16.751309
+            },
+            "timestamp": "1650526881",
+            "immatriculation": "OX-519-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.4,
+            "geo": {
+                "lat": 43.334455,
+                "lon": 16.443248
+            },
+            "timestamp": "1671551930",
+            "immatriculation": "IF-690-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.1,
+            "geo": {
+                "lat": 43.490779,
+                "lon": 16.558406
+            },
+            "timestamp": "1661362497",
+            "immatriculation": "IF-801-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 112.3,
+            "geo": {
+                "lat": 43.688138,
+                "lon": 16.947612
+            },
+            "timestamp": "1672425096",
+            "immatriculation": "BE-320-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 125.1,
+            "geo": {
+                "lat": 43.610913,
+                "lon": 16.683897
+            },
+            "timestamp": "1658595426",
+            "immatriculation": "PI-569-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.4,
+            "geo": {
+                "lat": 43.135547,
+                "lon": 16.71668
+            },
+            "timestamp": "1661892671",
+            "immatriculation": "AD-153-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.5,
+            "geo": {
+                "lat": 43.548468,
+                "lon": 16.591012
+            },
+            "timestamp": "1667582552",
+            "immatriculation": "AN-228-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 11.4,
+            "geo": {
+                "lat": 43.517407,
+                "lon": 16.602916
+            },
+            "timestamp": "1649663004",
+            "immatriculation": "SO-735-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.1,
+            "geo": {
+                "lat": 43.280578,
+                "lon": 16.665162
+            },
+            "timestamp": "1650906545",
+            "immatriculation": "AX-050-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.4,
+            "geo": {
+                "lat": 43.92854,
+                "lon": 16.386432
+            },
+            "timestamp": "1648418963",
+            "immatriculation": "AD-758-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.0,
+            "geo": {
+                "lat": 43.892066,
+                "lon": 16.316386
+            },
+            "timestamp": "1663147344",
+            "immatriculation": "AD-003-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.0,
+            "geo": {
+                "lat": 43.210131,
+                "lon": 16.15709
+            },
+            "timestamp": "1650096228",
+            "immatriculation": "WE-929-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 51.8,
+            "geo": {
+                "lat": 43.294031,
+                "lon": 16.21568
+            },
+            "timestamp": "1662125886",
+            "immatriculation": "IF-269-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.0,
+            "geo": {
+                "lat": 43.430984,
+                "lon": 16.386272
+            },
+            "timestamp": "1644040590",
+            "immatriculation": "PI-542-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 17.5,
+            "geo": {
+                "lat": 43.24568,
+                "lon": 16.565752
+            },
+            "timestamp": "1643690972",
+            "immatriculation": "SO-559-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 27.3,
+            "geo": {
+                "lat": 43.684558,
+                "lon": 16.521039
+            },
+            "timestamp": "1652819528",
+            "immatriculation": "CS-041-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.8,
+            "geo": {
+                "lat": 43.87876,
+                "lon": 16.341734
+            },
+            "timestamp": "1666410608",
+            "immatriculation": "EH-284-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 1.1,
+            "geo": {
+                "lat": 43.013892,
+                "lon": 16.339358
+            },
+            "timestamp": "1667778275",
+            "immatriculation": "AT-060-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.4,
+            "geo": {
+                "lat": 43.069419,
+                "lon": 16.369792
+            },
+            "timestamp": "1659294462",
+            "immatriculation": "OK-751-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 17.2,
+            "geo": {
+                "lat": 43.623186,
+                "lon": 16.00993
+            },
+            "timestamp": "1646429947",
+            "immatriculation": "HO-378-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.1,
+            "geo": {
+                "lat": 43.100401,
+                "lon": 16.190202
+            },
+            "timestamp": "1653749622",
+            "immatriculation": "IN-113-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.8,
+            "geo": {
+                "lat": 43.207795,
+                "lon": 16.017779
+            },
+            "timestamp": "1670020642",
+            "immatriculation": "OK-528-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 119.3,
+            "geo": {
+                "lat": 43.59319,
+                "lon": 16.726936
+            },
+            "timestamp": "1646236710",
+            "immatriculation": "MU-326-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 105.3,
+            "geo": {
+                "lat": 43.997946,
+                "lon": 16.649334
+            },
+            "timestamp": "1670850197",
+            "immatriculation": "AH-979-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.4,
+            "geo": {
+                "lat": 43.971071,
+                "lon": 16.344151
+            },
+            "timestamp": "1666748578",
+            "immatriculation": "AD-945-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 125.5,
+            "geo": {
+                "lat": 43.283201,
+                "lon": 16.352407
+            },
+            "timestamp": "1669558894",
+            "immatriculation": "OH-891-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 96.3,
+            "geo": {
+                "lat": 43.545767,
+                "lon": 16.259837
+            },
+            "timestamp": "1663615932",
+            "immatriculation": "MR-838-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 48.8,
+            "geo": {
+                "lat": 43.993934,
+                "lon": 16.913838
+            },
+            "timestamp": "1646402285",
+            "immatriculation": "IN-432-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 31.0,
+            "geo": {
+                "lat": 43.35248,
+                "lon": 16.737518
+            },
+            "timestamp": "1666525171",
+            "immatriculation": "AS-763-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 69.8,
+            "geo": {
+                "lat": 43.99821,
+                "lon": 16.952858
+            },
+            "timestamp": "1655212952",
+            "immatriculation": "MR-354-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 106.8,
+            "geo": {
+                "lat": 43.575676,
+                "lon": 16.214463
+            },
+            "timestamp": "1645260762",
+            "immatriculation": "ID-193-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 90.9,
+            "geo": {
+                "lat": 43.537408,
+                "lon": 16.332695
+            },
+            "timestamp": "1666011424",
+            "immatriculation": "CS-458-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 63.6,
+            "geo": {
+                "lat": 43.601413,
+                "lon": 16.258729
+            },
+            "timestamp": "1652916639",
+            "immatriculation": "MU-268-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 37.4,
+            "geo": {
+                "lat": 43.833377,
+                "lon": 16.765848
+            },
+            "timestamp": "1642737597",
+            "immatriculation": "IS-767-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 62.0,
+            "geo": {
+                "lat": 43.128107,
+                "lon": 16.081119
+            },
+            "timestamp": "1661488962",
+            "immatriculation": "OR-540-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 64.2,
+            "geo": {
+                "lat": 43.016804,
+                "lon": 16.232786
+            },
+            "timestamp": "1645985604",
+            "immatriculation": "AH-133-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 86.1,
+            "geo": {
+                "lat": 43.456912,
+                "lon": 16.695058
+            },
+            "timestamp": "1672684526",
+            "immatriculation": "ID-095-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 65.3,
+            "geo": {
+                "lat": 43.198979,
+                "lon": 16.216551
+            },
+            "timestamp": "1644779550",
+            "immatriculation": "SO-636-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 118.4,
+            "geo": {
+                "lat": 43.559919,
+                "lon": 16.057505
+            },
+            "timestamp": "1642092603",
+            "immatriculation": "TO-369-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 94.5,
+            "geo": {
+                "lat": 43.05081,
+                "lon": 16.870026
+            },
+            "timestamp": "1655726131",
+            "immatriculation": "AH-889-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 74.4,
+            "geo": {
+                "lat": 43.720621,
+                "lon": 16.619556
+            },
+            "timestamp": "1662399811",
+            "immatriculation": "PI-241-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.4,
+            "geo": {
+                "lat": 43.231283,
+                "lon": 16.181094
+            },
+            "timestamp": "1670683750",
+            "immatriculation": "IT-150-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 16.0,
+            "geo": {
+                "lat": 43.260049,
+                "lon": 16.645282
+            },
+            "timestamp": "1652601369",
+            "immatriculation": "CS-759-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.8,
+            "geo": {
+                "lat": 43.875262,
+                "lon": 16.431619
+            },
+            "timestamp": "1669374356",
+            "immatriculation": "SO-062-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 61.5,
+            "geo": {
+                "lat": 43.565426,
+                "lon": 16.518036
+            },
+            "timestamp": "1642244104",
+            "immatriculation": "CS-532-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 36.8,
+            "geo": {
+                "lat": 43.510849,
+                "lon": 16.088514
+            },
+            "timestamp": "1667575844",
+            "immatriculation": "OK-238-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 63.5,
+            "geo": {
+                "lat": 43.024386,
+                "lon": 16.507151
+            },
+            "timestamp": "1654236542",
+            "immatriculation": "MY-669-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 37.4,
+            "geo": {
+                "lat": 43.232578,
+                "lon": 16.942061
+            },
+            "timestamp": "1642571168",
+            "immatriculation": "AX-099-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 48.4,
+            "geo": {
+                "lat": 43.416763,
+                "lon": 16.004475
+            },
+            "timestamp": "1655734652",
+            "immatriculation": "OK-082-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 6.6,
+            "geo": {
+                "lat": 43.38382,
+                "lon": 16.770688
+            },
+            "timestamp": "1662067934",
+            "immatriculation": "OF-547-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 55.6,
+            "geo": {
+                "lat": 43.223556,
+                "lon": 16.341228
+            },
+            "timestamp": "1672928915",
+            "immatriculation": "CS-371-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.1,
+            "geo": {
+                "lat": 43.978761,
+                "lon": 16.595672
+            },
+            "timestamp": "1672870407",
+            "immatriculation": "OS-994-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.2,
+            "geo": {
+                "lat": 43.192969,
+                "lon": 16.306577
+            },
+            "timestamp": "1658475203",
+            "immatriculation": "GO-241-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 46.4,
+            "geo": {
+                "lat": 43.974799,
+                "lon": 16.006044
+            },
+            "timestamp": "1672003457",
+            "immatriculation": "IS-718-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 47.4,
+            "geo": {
+                "lat": 43.46356,
+                "lon": 16.748193
+            },
+            "timestamp": "1667345479",
+            "immatriculation": "DO-995-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 0.7,
+            "geo": {
+                "lat": 43.064075,
+                "lon": 16.304716
+            },
+            "timestamp": "1669315194",
+            "immatriculation": "IN-085-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 32.1,
+            "geo": {
+                "lat": 43.927822,
+                "lon": 16.712192
+            },
+            "timestamp": "1669240118",
+            "immatriculation": "RE-134-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 99.2,
+            "geo": {
+                "lat": 43.667019,
+                "lon": 16.440055
+            },
+            "timestamp": "1657186481",
+            "immatriculation": "HE-908-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.8,
+            "geo": {
+                "lat": 43.003321,
+                "lon": 16.339504
+            },
+            "timestamp": "1655254062",
+            "immatriculation": "US-976-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 12.9,
+            "geo": {
+                "lat": 43.16602,
+                "lon": 16.676317
+            },
+            "timestamp": "1660847061",
+            "immatriculation": "AD-654-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.5,
+            "geo": {
+                "lat": 43.907635,
+                "lon": 16.624007
+            },
+            "timestamp": "1662260201",
+            "immatriculation": "CS-369-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 47.0,
+            "geo": {
+                "lat": 43.312622,
+                "lon": 16.959693
+            },
+            "timestamp": "1659652987",
+            "immatriculation": "AT-734-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.9,
+            "geo": {
+                "lat": 43.393198,
+                "lon": 16.883694
+            },
+            "timestamp": "1666695719",
+            "immatriculation": "MY-474-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 61.7,
+            "geo": {
+                "lat": 43.928068,
+                "lon": 16.284243
+            },
+            "timestamp": "1672343836",
+            "immatriculation": "OK-956-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 105.4,
+            "geo": {
+                "lat": 43.51899,
+                "lon": 16.674617
+            },
+            "timestamp": "1667824859",
+            "immatriculation": "US-898-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 10.0,
+            "geo": {
+                "lat": 43.61647,
+                "lon": 16.221409
+            },
+            "timestamp": "1666197503",
+            "immatriculation": "SO-467-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 98.8,
+            "geo": {
+                "lat": 43.372237,
+                "lon": 16.506467
+            },
+            "timestamp": "1653252026",
+            "immatriculation": "AY-960-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 20.8,
+            "geo": {
+                "lat": 43.788908,
+                "lon": 16.14316
+            },
+            "timestamp": "1671105937",
+            "immatriculation": "HI-137-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.6,
+            "geo": {
+                "lat": 43.440311,
+                "lon": 16.292028
+            },
+            "timestamp": "1654285699",
+            "immatriculation": "PI-788-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.1,
+            "geo": {
+                "lat": 43.523876,
+                "lon": 16.707409
+            },
+            "timestamp": "1660441169",
+            "immatriculation": "OS-744-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 74.1,
+            "geo": {
+                "lat": 43.41879,
+                "lon": 16.159465
+            },
+            "timestamp": "1663068093",
+            "immatriculation": "ON-088-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.9,
+            "geo": {
+                "lat": 43.70677,
+                "lon": 16.105541
+            },
+            "timestamp": "1653468337",
+            "immatriculation": "ME-344-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 7.7,
+            "geo": {
+                "lat": 43.415281,
+                "lon": 16.318018
+            },
+            "timestamp": "1671040345",
+            "immatriculation": "HO-561-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 47.8,
+            "geo": {
+                "lat": 43.539746,
+                "lon": 16.291787
+            },
+            "timestamp": "1653284033",
+            "immatriculation": "MR-271-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 43.5,
+            "geo": {
+                "lat": 43.304206,
+                "lon": 16.635937
+            },
+            "timestamp": "1653198105",
+            "immatriculation": "CS-588-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 104.3,
+            "geo": {
+                "lat": 43.148521,
+                "lon": 16.845665
+            },
+            "timestamp": "1652065975",
+            "immatriculation": "IF-228-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 52.5,
+            "geo": {
+                "lat": 43.277073,
+                "lon": 16.910873
+            },
+            "timestamp": "1648820112",
+            "immatriculation": "IN-875-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.8,
+            "geo": {
+                "lat": 43.885496,
+                "lon": 16.959669
+            },
+            "timestamp": "1647266346",
+            "immatriculation": "AN-310-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.4,
+            "geo": {
+                "lat": 43.520364,
+                "lon": 16.45704
+            },
+            "timestamp": "1646413009",
+            "immatriculation": "AH-857-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 39.0,
+            "geo": {
+                "lat": 43.116649,
+                "lon": 16.155291
+            },
+            "timestamp": "1644579033",
+            "immatriculation": "AS-509-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 118.9,
+            "geo": {
+                "lat": 43.205556,
+                "lon": 16.089827
+            },
+            "timestamp": "1671869029",
+            "immatriculation": "CS-214-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 128.4,
+            "geo": {
+                "lat": 43.551779,
+                "lon": 16.371363
+            },
+            "timestamp": "1663229531",
+            "immatriculation": "IT-423-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 53.2,
+            "geo": {
+                "lat": 43.436575,
+                "lon": 16.676567
+            },
+            "timestamp": "1652419739",
+            "immatriculation": "AD-473-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.9,
+            "geo": {
+                "lat": 43.343763,
+                "lon": 16.478926
+            },
+            "timestamp": "1663749375",
+            "immatriculation": "HI-989-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 127.1,
+            "geo": {
+                "lat": 43.017761,
+                "lon": 16.384195
+            },
+            "timestamp": "1672842230",
+            "immatriculation": "BY-264-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 105.1,
+            "geo": {
+                "lat": 43.722395,
+                "lon": 16.093435
+            },
+            "timestamp": "1666784839",
+            "immatriculation": "OS-953-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.5,
+            "geo": {
+                "lat": 43.922365,
+                "lon": 16.811812
+            },
+            "timestamp": "1651268925",
+            "immatriculation": "US-848-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.0,
+            "geo": {
+                "lat": 43.852004,
+                "lon": 16.025591
+            },
+            "timestamp": "1664784367",
+            "immatriculation": "AM-420-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 96.8,
+            "geo": {
+                "lat": 43.428778,
+                "lon": 16.621328
+            },
+            "timestamp": "1657498906",
+            "immatriculation": "ON-963-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 26.8,
+            "geo": {
+                "lat": 43.167465,
+                "lon": 16.954804
+            },
+            "timestamp": "1670849181",
+            "immatriculation": "IF-174-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.6,
+            "geo": {
+                "lat": 43.130902,
+                "lon": 16.017594
+            },
+            "timestamp": "1647188423",
+            "immatriculation": "HO-451-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 44.4,
+            "geo": {
+                "lat": 43.892388,
+                "lon": 16.950352
+            },
+            "timestamp": "1650634631",
+            "immatriculation": "AN-929-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 33.6,
+            "geo": {
+                "lat": 43.389934,
+                "lon": 16.378413
+            },
+            "timestamp": "1651019305",
+            "immatriculation": "OH-751-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 72.0,
+            "geo": {
+                "lat": 43.742203,
+                "lon": 16.74284
+            },
+            "timestamp": "1671390769",
+            "immatriculation": "MS-599-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 100.3,
+            "geo": {
+                "lat": 43.156877,
+                "lon": 16.578265
+            },
+            "timestamp": "1672498905",
+            "immatriculation": "HE-038-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 113.3,
+            "geo": {
+                "lat": 43.742075,
+                "lon": 16.728017
+            },
+            "timestamp": "1661840302",
+            "immatriculation": "US-559-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 95.9,
+            "geo": {
+                "lat": 43.935736,
+                "lon": 16.746087
+            },
+            "timestamp": "1654886756",
+            "immatriculation": "WE-978-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 116.1,
+            "geo": {
+                "lat": 43.04068,
+                "lon": 16.648808
+            },
+            "timestamp": "1644955126",
+            "immatriculation": "AY-084-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.8,
+            "geo": {
+                "lat": 43.176566,
+                "lon": 16.374363
+            },
+            "timestamp": "1644354698",
+            "immatriculation": "GO-973-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 90.4,
+            "geo": {
+                "lat": 43.598855,
+                "lon": 16.880783
+            },
+            "timestamp": "1665163435",
+            "immatriculation": "IN-431-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 102.7,
+            "geo": {
+                "lat": 43.433284,
+                "lon": 16.306677
+            },
+            "timestamp": "1658239638",
+            "immatriculation": "US-373-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.0,
+            "geo": {
+                "lat": 43.965981,
+                "lon": 16.356156
+            },
+            "timestamp": "1663691497",
+            "immatriculation": "EM-367-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 102.1,
+            "geo": {
+                "lat": 43.544607,
+                "lon": 16.237366
+            },
+            "timestamp": "1649090451",
+            "immatriculation": "ON-761-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 116.3,
+            "geo": {
+                "lat": 43.863189,
+                "lon": 16.164057
+            },
+            "timestamp": "1659172001",
+            "immatriculation": "ID-901-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 97.1,
+            "geo": {
+                "lat": 43.958501,
+                "lon": 16.789209
+            },
+            "timestamp": "1646026268",
+            "immatriculation": "AM-041-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.8,
+            "geo": {
+                "lat": 43.990241,
+                "lon": 16.543474
+            },
+            "timestamp": "1666791459",
+            "immatriculation": "AM-857-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 15.4,
+            "geo": {
+                "lat": 43.38787,
+                "lon": 16.359114
+            },
+            "timestamp": "1670765074",
+            "immatriculation": "BY-578-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 17.8,
+            "geo": {
+                "lat": 43.778552,
+                "lon": 16.251102
+            },
+            "timestamp": "1669133543",
+            "immatriculation": "HE-085-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 95.3,
+            "geo": {
+                "lat": 43.772368,
+                "lon": 16.214803
+            },
+            "timestamp": "1655021596",
+            "immatriculation": "HI-174-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.1,
+            "geo": {
+                "lat": 43.257802,
+                "lon": 16.381133
+            },
+            "timestamp": "1645547043",
+            "immatriculation": "OF-852-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 52.6,
+            "geo": {
+                "lat": 43.963276,
+                "lon": 16.297544
+            },
+            "timestamp": "1645969849",
+            "immatriculation": "OR-044-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 34.9,
+            "geo": {
+                "lat": 43.997165,
+                "lon": 16.516951
+            },
+            "timestamp": "1662013434",
+            "immatriculation": "ID-044-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 98.8,
+            "geo": {
+                "lat": 43.031923,
+                "lon": 16.611638
+            },
+            "timestamp": "1654514698",
+            "immatriculation": "EH-553-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 90.3,
+            "geo": {
+                "lat": 43.464443,
+                "lon": 16.35337
+            },
+            "timestamp": "1667074062",
+            "immatriculation": "OK-070-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 9.8,
+            "geo": {
+                "lat": 43.04748,
+                "lon": 16.636145
+            },
+            "timestamp": "1647435513",
+            "immatriculation": "PI-671-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.2,
+            "geo": {
+                "lat": 43.579097,
+                "lon": 16.207572
+            },
+            "timestamp": "1669572740",
+            "immatriculation": "IF-477-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 28.5,
+            "geo": {
+                "lat": 43.116946,
+                "lon": 16.311191
+            },
+            "timestamp": "1649435647",
+            "immatriculation": "DO-198-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.2,
+            "geo": {
+                "lat": 43.606141,
+                "lon": 16.196498
+            },
+            "timestamp": "1651734334",
+            "immatriculation": "AY-488-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 20.1,
+            "geo": {
+                "lat": 43.666873,
+                "lon": 16.715509
+            },
+            "timestamp": "1644198975",
+            "immatriculation": "OR-641-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 100.1,
+            "geo": {
+                "lat": 43.242958,
+                "lon": 16.784829
+            },
+            "timestamp": "1655958605",
+            "immatriculation": "OS-417-UP"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 36.0,
+            "geo": {
+                "lat": 43.417317,
+                "lon": 16.999136
+            },
+            "timestamp": "1649797947",
+            "immatriculation": "MA-576-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 33.3,
+            "geo": {
+                "lat": 43.823998,
+                "lon": 16.524218
+            },
+            "timestamp": "1660754426",
+            "immatriculation": "MU-018-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.4,
+            "geo": {
+                "lat": 43.840583,
+                "lon": 16.027468
+            },
+            "timestamp": "1653326112",
+            "immatriculation": "AM-724-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.5,
+            "geo": {
+                "lat": 43.109024,
+                "lon": 16.18944
+            },
+            "timestamp": "1653956213",
+            "immatriculation": "MY-258-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 5.3,
+            "geo": {
+                "lat": 43.178446,
+                "lon": 16.749987
+            },
+            "timestamp": "1663189567",
+            "immatriculation": "NO-406-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.8,
+            "geo": {
+                "lat": 43.86683,
+                "lon": 16.428651
+            },
+            "timestamp": "1657507893",
+            "immatriculation": "ON-276-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.4,
+            "geo": {
+                "lat": 43.023389,
+                "lon": 16.726211
+            },
+            "timestamp": "1673413971",
+            "immatriculation": "OH-518-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 6.8,
+            "geo": {
+                "lat": 43.623394,
+                "lon": 16.503571
+            },
+            "timestamp": "1643902426",
+            "immatriculation": "NO-740-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 77.4,
+            "geo": {
+                "lat": 43.539764,
+                "lon": 16.368727
+            },
+            "timestamp": "1642620375",
+            "immatriculation": "HA-120-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.4,
+            "geo": {
+                "lat": 43.387299,
+                "lon": 16.742065
+            },
+            "timestamp": "1660648290",
+            "immatriculation": "HO-545-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 64.3,
+            "geo": {
+                "lat": 43.977584,
+                "lon": 16.207112
+            },
+            "timestamp": "1647367477",
+            "immatriculation": "OS-719-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.7,
+            "geo": {
+                "lat": 43.919248,
+                "lon": 16.858018
+            },
+            "timestamp": "1643718912",
+            "immatriculation": "OF-605-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 79.4,
+            "geo": {
+                "lat": 43.858217,
+                "lon": 16.914255
+            },
+            "timestamp": "1645109519",
+            "immatriculation": "MS-218-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.3,
+            "geo": {
+                "lat": 43.503718,
+                "lon": 16.169809
+            },
+            "timestamp": "1661200155",
+            "immatriculation": "OH-439-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 81.5,
+            "geo": {
+                "lat": 43.726588,
+                "lon": 16.488463
+            },
+            "timestamp": "1673315186",
+            "immatriculation": "AX-482-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 66.8,
+            "geo": {
+                "lat": 43.929786,
+                "lon": 16.605807
+            },
+            "timestamp": "1655632883",
+            "immatriculation": "CS-448-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.3,
+            "geo": {
+                "lat": 43.083946,
+                "lon": 16.03528
+            },
+            "timestamp": "1664432776",
+            "immatriculation": "AX-191-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 36.8,
+            "geo": {
+                "lat": 43.436154,
+                "lon": 16.650477
+            },
+            "timestamp": "1673315892",
+            "immatriculation": "GO-607-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 27.1,
+            "geo": {
+                "lat": 43.894456,
+                "lon": 16.81815
+            },
+            "timestamp": "1656266871",
+            "immatriculation": "EM-728-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 62.4,
+            "geo": {
+                "lat": 43.602999,
+                "lon": 16.648984
+            },
+            "timestamp": "1672265089",
+            "immatriculation": "OS-603-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 7.1,
+            "geo": {
+                "lat": 43.023757,
+                "lon": 16.446937
+            },
+            "timestamp": "1668986725",
+            "immatriculation": "OS-036-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 64.6,
+            "geo": {
+                "lat": 43.48738,
+                "lon": 16.031518
+            },
+            "timestamp": "1661967917",
+            "immatriculation": "SO-674-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 68.1,
+            "geo": {
+                "lat": 43.577288,
+                "lon": 16.667775
+            },
+            "timestamp": "1645071133",
+            "immatriculation": "OK-998-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 98.0,
+            "geo": {
+                "lat": 43.738237,
+                "lon": 16.808848
+            },
+            "timestamp": "1642934719",
+            "immatriculation": "EH-656-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 44.2,
+            "geo": {
+                "lat": 43.848311,
+                "lon": 16.65081
+            },
+            "timestamp": "1654911341",
+            "immatriculation": "ID-367-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 11.5,
+            "geo": {
+                "lat": 43.380084,
+                "lon": 16.463906
+            },
+            "timestamp": "1645221180",
+            "immatriculation": "ES-852-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 99.7,
+            "geo": {
+                "lat": 43.820666,
+                "lon": 16.261594
+            },
+            "timestamp": "1643550462",
+            "immatriculation": "CS-638-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 97.2,
+            "geo": {
+                "lat": 43.441314,
+                "lon": 16.488856
+            },
+            "timestamp": "1655565990",
+            "immatriculation": "OS-689-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.3,
+            "geo": {
+                "lat": 43.792669,
+                "lon": 16.918772
+            },
+            "timestamp": "1647676215",
+            "immatriculation": "AD-660-UP"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 116.3,
+            "geo": {
+                "lat": 43.235219,
+                "lon": 16.637995
+            },
+            "timestamp": "1647439019",
+            "immatriculation": "ES-638-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 72.9,
+            "geo": {
+                "lat": 43.311495,
+                "lon": 16.926254
+            },
+            "timestamp": "1653376455",
+            "immatriculation": "AY-897-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 70.6,
+            "geo": {
+                "lat": 43.751881,
+                "lon": 16.830767
+            },
+            "timestamp": "1660718335",
+            "immatriculation": "MU-267-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 96.6,
+            "geo": {
+                "lat": 43.132614,
+                "lon": 16.498788
+            },
+            "timestamp": "1644590370",
+            "immatriculation": "OK-500-UP"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 117.3,
+            "geo": {
+                "lat": 43.451241,
+                "lon": 16.201454
+            },
+            "timestamp": "1648495704",
+            "immatriculation": "OS-423-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 37.0,
+            "geo": {
+                "lat": 43.681726,
+                "lon": 16.881481
+            },
+            "timestamp": "1656441736",
+            "immatriculation": "ES-087-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 76.2,
+            "geo": {
+                "lat": 43.734168,
+                "lon": 16.938127
+            },
+            "timestamp": "1658162299",
+            "immatriculation": "NO-877-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 3.3,
+            "geo": {
+                "lat": 43.608638,
+                "lon": 16.530697
+            },
+            "timestamp": "1644667057",
+            "immatriculation": "OR-045-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 1.3,
+            "geo": {
+                "lat": 43.044754,
+                "lon": 16.290441
+            },
+            "timestamp": "1653233448",
+            "immatriculation": "AX-723-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 1.4,
+            "geo": {
+                "lat": 43.740768,
+                "lon": 16.056751
+            },
+            "timestamp": "1655054845",
+            "immatriculation": "AS-935-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.0,
+            "geo": {
+                "lat": 43.555664,
+                "lon": 16.483484
+            },
+            "timestamp": "1653655170",
+            "immatriculation": "ON-595-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 62.7,
+            "geo": {
+                "lat": 43.696276,
+                "lon": 16.500879
+            },
+            "timestamp": "1649980192",
+            "immatriculation": "MR-528-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.3,
+            "geo": {
+                "lat": 43.669506,
+                "lon": 16.823077
+            },
+            "timestamp": "1664048790",
+            "immatriculation": "MS-893-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.3,
+            "geo": {
+                "lat": 43.834477,
+                "lon": 16.781091
+            },
+            "timestamp": "1648666321",
+            "immatriculation": "HA-656-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.5,
+            "geo": {
+                "lat": 43.626633,
+                "lon": 16.689414
+            },
+            "timestamp": "1642161939",
+            "immatriculation": "PA-425-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 27.2,
+            "geo": {
+                "lat": 43.516356,
+                "lon": 16.313062
+            },
+            "timestamp": "1643249895",
+            "immatriculation": "BY-949-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 102.8,
+            "geo": {
+                "lat": 43.277021,
+                "lon": 16.276344
+            },
+            "timestamp": "1665214015",
+            "immatriculation": "DO-561-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.0,
+            "geo": {
+                "lat": 43.32819,
+                "lon": 16.932486
+            },
+            "timestamp": "1646579410",
+            "immatriculation": "PI-610-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 31.0,
+            "geo": {
+                "lat": 43.351637,
+                "lon": 16.285883
+            },
+            "timestamp": "1648938630",
+            "immatriculation": "MU-785-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 27.0,
+            "geo": {
+                "lat": 43.553762,
+                "lon": 16.07495
+            },
+            "timestamp": "1664972414",
+            "immatriculation": "HA-828-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 76.7,
+            "geo": {
+                "lat": 43.62098,
+                "lon": 16.489067
+            },
+            "timestamp": "1669045584",
+            "immatriculation": "SO-467-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 9.5,
+            "geo": {
+                "lat": 43.830761,
+                "lon": 16.756096
+            },
+            "timestamp": "1663575877",
+            "immatriculation": "OF-669-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 39.7,
+            "geo": {
+                "lat": 43.552905,
+                "lon": 16.269088
+            },
+            "timestamp": "1654709011",
+            "immatriculation": "PI-793-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 54.2,
+            "geo": {
+                "lat": 43.181727,
+                "lon": 16.303979
+            },
+            "timestamp": "1665518066",
+            "immatriculation": "TO-297-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 80.9,
+            "geo": {
+                "lat": 43.095568,
+                "lon": 16.732733
+            },
+            "timestamp": "1664251441",
+            "immatriculation": "EM-717-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.4,
+            "geo": {
+                "lat": 43.721416,
+                "lon": 16.492639
+            },
+            "timestamp": "1654925127",
+            "immatriculation": "CS-275-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 47.9,
+            "geo": {
+                "lat": 43.307651,
+                "lon": 16.820398
+            },
+            "timestamp": "1662206621",
+            "immatriculation": "HA-132-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.4,
+            "geo": {
+                "lat": 43.367643,
+                "lon": 16.788106
+            },
+            "timestamp": "1659639638",
+            "immatriculation": "OX-135-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.8,
+            "geo": {
+                "lat": 43.695091,
+                "lon": 16.885096
+            },
+            "timestamp": "1650730408",
+            "immatriculation": "MU-524-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.7,
+            "geo": {
+                "lat": 43.085054,
+                "lon": 16.663053
+            },
+            "timestamp": "1662080478",
+            "immatriculation": "OR-242-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.3,
+            "geo": {
+                "lat": 43.124405,
+                "lon": 16.113392
+            },
+            "timestamp": "1672353930",
+            "immatriculation": "MS-912-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 48.9,
+            "geo": {
+                "lat": 43.62099,
+                "lon": 16.88434
+            },
+            "timestamp": "1656850296",
+            "immatriculation": "EH-801-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.1,
+            "geo": {
+                "lat": 43.494138,
+                "lon": 16.007456
+            },
+            "timestamp": "1666685157",
+            "immatriculation": "AM-477-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.4,
+            "geo": {
+                "lat": 43.343197,
+                "lon": 16.267566
+            },
+            "timestamp": "1651952957",
+            "immatriculation": "ID-128-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.8,
+            "geo": {
+                "lat": 43.472436,
+                "lon": 16.527686
+            },
+            "timestamp": "1654001396",
+            "immatriculation": "OH-278-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.7,
+            "geo": {
+                "lat": 43.479465,
+                "lon": 16.077265
+            },
+            "timestamp": "1669828908",
+            "immatriculation": "MA-941-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 85.3,
+            "geo": {
+                "lat": 43.411081,
+                "lon": 16.996818
+            },
+            "timestamp": "1656533023",
+            "immatriculation": "IT-431-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 102.0,
+            "geo": {
+                "lat": 43.817592,
+                "lon": 16.763437
+            },
+            "timestamp": "1649143641",
+            "immatriculation": "MY-539-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.4,
+            "geo": {
+                "lat": 43.382744,
+                "lon": 16.661964
+            },
+            "timestamp": "1670055135",
+            "immatriculation": "CS-615-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 118.2,
+            "geo": {
+                "lat": 43.184409,
+                "lon": 16.821022
+            },
+            "timestamp": "1662099924",
+            "immatriculation": "CS-724-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 67.6,
+            "geo": {
+                "lat": 43.725637,
+                "lon": 16.418416
+            },
+            "timestamp": "1671750674",
+            "immatriculation": "MR-224-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.6,
+            "geo": {
+                "lat": 43.340032,
+                "lon": 16.736497
+            },
+            "timestamp": "1645944373",
+            "immatriculation": "ID-510-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 68.9,
+            "geo": {
+                "lat": 43.472801,
+                "lon": 16.209437
+            },
+            "timestamp": "1664369765",
+            "immatriculation": "US-806-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 77.3,
+            "geo": {
+                "lat": 43.840479,
+                "lon": 16.563886
+            },
+            "timestamp": "1643878265",
+            "immatriculation": "MR-322-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.4,
+            "geo": {
+                "lat": 43.100654,
+                "lon": 16.932214
+            },
+            "timestamp": "1653168240",
+            "immatriculation": "HO-642-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 64.4,
+            "geo": {
+                "lat": 43.756649,
+                "lon": 16.199895
+            },
+            "timestamp": "1662987719",
+            "immatriculation": "AH-948-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.0,
+            "geo": {
+                "lat": 43.713948,
+                "lon": 16.772431
+            },
+            "timestamp": "1652205924",
+            "immatriculation": "HI-477-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.7,
+            "geo": {
+                "lat": 43.272319,
+                "lon": 16.393391
+            },
+            "timestamp": "1654583651",
+            "immatriculation": "HO-810-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 94.9,
+            "geo": {
+                "lat": 43.09251,
+                "lon": 16.419751
+            },
+            "timestamp": "1652939159",
+            "immatriculation": "OH-733-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.0,
+            "geo": {
+                "lat": 43.098414,
+                "lon": 16.187773
+            },
+            "timestamp": "1672345164",
+            "immatriculation": "PA-062-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.9,
+            "geo": {
+                "lat": 43.194508,
+                "lon": 16.330377
+            },
+            "timestamp": "1652057684",
+            "immatriculation": "ID-385-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 105.6,
+            "geo": {
+                "lat": 43.311237,
+                "lon": 16.46738
+            },
+            "timestamp": "1662132187",
+            "immatriculation": "TO-510-AX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 49.9,
+            "geo": {
+                "lat": 43.934562,
+                "lon": 16.196003
+            },
+            "timestamp": "1667831633",
+            "immatriculation": "OF-294-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.9,
+            "geo": {
+                "lat": 43.419474,
+                "lon": 16.426107
+            },
+            "timestamp": "1673228376",
+            "immatriculation": "PI-682-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 115.0,
+            "geo": {
+                "lat": 43.081735,
+                "lon": 16.639805
+            },
+            "timestamp": "1672313712",
+            "immatriculation": "MS-231-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.8,
+            "geo": {
+                "lat": 43.612403,
+                "lon": 16.749098
+            },
+            "timestamp": "1645265737",
+            "immatriculation": "AY-959-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 65.8,
+            "geo": {
+                "lat": 43.181606,
+                "lon": 16.359999
+            },
+            "timestamp": "1654025255",
+            "immatriculation": "ID-349-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 100.6,
+            "geo": {
+                "lat": 43.804031,
+                "lon": 16.343041
+            },
+            "timestamp": "1653413854",
+            "immatriculation": "PA-719-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 17.9,
+            "geo": {
+                "lat": 43.405157,
+                "lon": 16.710142
+            },
+            "timestamp": "1666991681",
+            "immatriculation": "NO-966-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.7,
+            "geo": {
+                "lat": 43.647064,
+                "lon": 16.927526
+            },
+            "timestamp": "1647461015",
+            "immatriculation": "MS-658-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 63.3,
+            "geo": {
+                "lat": 43.56214,
+                "lon": 16.113489
+            },
+            "timestamp": "1644167202",
+            "immatriculation": "BE-837-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.8,
+            "geo": {
+                "lat": 43.594172,
+                "lon": 16.017423
+            },
+            "timestamp": "1650382383",
+            "immatriculation": "OX-778-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.7,
+            "geo": {
+                "lat": 43.403217,
+                "lon": 16.249252
+            },
+            "timestamp": "1645644286",
+            "immatriculation": "MR-636-AX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 7.2,
+            "geo": {
+                "lat": 43.998128,
+                "lon": 16.640875
+            },
+            "timestamp": "1666709001",
+            "immatriculation": "AY-362-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.7,
+            "geo": {
+                "lat": 43.580435,
+                "lon": 16.938844
+            },
+            "timestamp": "1648350227",
+            "immatriculation": "GO-968-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.1,
+            "geo": {
+                "lat": 43.566601,
+                "lon": 16.166315
+            },
+            "timestamp": "1662059781",
+            "immatriculation": "OK-989-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 104.6,
+            "geo": {
+                "lat": 43.653035,
+                "lon": 16.941345
+            },
+            "timestamp": "1644089310",
+            "immatriculation": "EH-072-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 55.1,
+            "geo": {
+                "lat": 43.152564,
+                "lon": 16.381554
+            },
+            "timestamp": "1645010946",
+            "immatriculation": "ON-478-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 95.3,
+            "geo": {
+                "lat": 43.486534,
+                "lon": 16.985165
+            },
+            "timestamp": "1650639162",
+            "immatriculation": "AX-515-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.1,
+            "geo": {
+                "lat": 43.352058,
+                "lon": 16.02799
+            },
+            "timestamp": "1642367578",
+            "immatriculation": "ES-971-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.7,
+            "geo": {
+                "lat": 43.888239,
+                "lon": 16.939373
+            },
+            "timestamp": "1647562871",
+            "immatriculation": "OS-818-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 51.1,
+            "geo": {
+                "lat": 43.560508,
+                "lon": 16.350686
+            },
+            "timestamp": "1652730862",
+            "immatriculation": "MS-179-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.7,
+            "geo": {
+                "lat": 43.838766,
+                "lon": 16.097413
+            },
+            "timestamp": "1660900615",
+            "immatriculation": "OF-740-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 57.1,
+            "geo": {
+                "lat": 43.724731,
+                "lon": 16.680072
+            },
+            "timestamp": "1656840845",
+            "immatriculation": "WE-499-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.0,
+            "geo": {
+                "lat": 43.739458,
+                "lon": 16.383384
+            },
+            "timestamp": "1652093645",
+            "immatriculation": "IF-283-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 67.2,
+            "geo": {
+                "lat": 43.386364,
+                "lon": 16.097578
+            },
+            "timestamp": "1654490884",
+            "immatriculation": "IF-030-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 52.2,
+            "geo": {
+                "lat": 43.413969,
+                "lon": 16.890689
+            },
+            "timestamp": "1653490222",
+            "immatriculation": "UP-280-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 47.4,
+            "geo": {
+                "lat": 43.709451,
+                "lon": 16.795259
+            },
+            "timestamp": "1645922881",
+            "immatriculation": "CS-445-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.8,
+            "geo": {
+                "lat": 43.171222,
+                "lon": 16.687401
+            },
+            "timestamp": "1667956061",
+            "immatriculation": "PA-966-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.9,
+            "geo": {
+                "lat": 43.217812,
+                "lon": 16.307619
+            },
+            "timestamp": "1665084852",
+            "immatriculation": "PI-741-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 33.7,
+            "geo": {
+                "lat": 43.367902,
+                "lon": 16.462456
+            },
+            "timestamp": "1655056239",
+            "immatriculation": "AM-284-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.6,
+            "geo": {
+                "lat": 43.15058,
+                "lon": 16.337904
+            },
+            "timestamp": "1655031191",
+            "immatriculation": "UP-600-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 128.0,
+            "geo": {
+                "lat": 43.645772,
+                "lon": 16.530771
+            },
+            "timestamp": "1669452325",
+            "immatriculation": "ME-736-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.4,
+            "geo": {
+                "lat": 43.610632,
+                "lon": 16.83217
+            },
+            "timestamp": "1653123607",
+            "immatriculation": "ID-450-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 58.5,
+            "geo": {
+                "lat": 43.071778,
+                "lon": 16.55571
+            },
+            "timestamp": "1655221829",
+            "immatriculation": "SO-032-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 1.2,
+            "geo": {
+                "lat": 43.294519,
+                "lon": 16.300318
+            },
+            "timestamp": "1662519140",
+            "immatriculation": "OR-702-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.0,
+            "geo": {
+                "lat": 43.364796,
+                "lon": 16.576419
+            },
+            "timestamp": "1653526524",
+            "immatriculation": "OF-158-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.7,
+            "geo": {
+                "lat": 43.748972,
+                "lon": 16.273312
+            },
+            "timestamp": "1647844728",
+            "immatriculation": "HO-507-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 35.7,
+            "geo": {
+                "lat": 43.27603,
+                "lon": 16.323934
+            },
+            "timestamp": "1645020619",
+            "immatriculation": "EH-960-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.7,
+            "geo": {
+                "lat": 43.279186,
+                "lon": 16.059004
+            },
+            "timestamp": "1656369057",
+            "immatriculation": "OX-869-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 64.7,
+            "geo": {
+                "lat": 43.434108,
+                "lon": 16.300528
+            },
+            "timestamp": "1646028817",
+            "immatriculation": "TO-691-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.7,
+            "geo": {
+                "lat": 43.857006,
+                "lon": 16.091296
+            },
+            "timestamp": "1672105351",
+            "immatriculation": "HI-752-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.8,
+            "geo": {
+                "lat": 43.891988,
+                "lon": 16.52937
+            },
+            "timestamp": "1666149788",
+            "immatriculation": "PI-599-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 15.4,
+            "geo": {
+                "lat": 43.482937,
+                "lon": 16.73193
+            },
+            "timestamp": "1655722475",
+            "immatriculation": "BE-732-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 0.2,
+            "geo": {
+                "lat": 43.589079,
+                "lon": 16.582951
+            },
+            "timestamp": "1656298003",
+            "immatriculation": "PA-557-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 0.7,
+            "geo": {
+                "lat": 43.226496,
+                "lon": 16.889377
+            },
+            "timestamp": "1650133903",
+            "immatriculation": "PI-973-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 36.1,
+            "geo": {
+                "lat": 43.988738,
+                "lon": 16.211559
+            },
+            "timestamp": "1649358559",
+            "immatriculation": "RE-347-AX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 33.8,
+            "geo": {
+                "lat": 43.06173,
+                "lon": 16.250566
+            },
+            "timestamp": "1659471828",
+            "immatriculation": "IS-739-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 119.6,
+            "geo": {
+                "lat": 43.840019,
+                "lon": 16.225205
+            },
+            "timestamp": "1666834691",
+            "immatriculation": "US-569-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 119.5,
+            "geo": {
+                "lat": 43.177496,
+                "lon": 16.639857
+            },
+            "timestamp": "1648138075",
+            "immatriculation": "DO-100-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 32.2,
+            "geo": {
+                "lat": 43.499059,
+                "lon": 16.254699
+            },
+            "timestamp": "1643183832",
+            "immatriculation": "NO-502-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 6.2,
+            "geo": {
+                "lat": 43.406946,
+                "lon": 16.808645
+            },
+            "timestamp": "1663400166",
+            "immatriculation": "AT-450-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.9,
+            "geo": {
+                "lat": 43.271674,
+                "lon": 16.737916
+            },
+            "timestamp": "1653789982",
+            "immatriculation": "ID-745-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 120.5,
+            "geo": {
+                "lat": 43.162276,
+                "lon": 16.893282
+            },
+            "timestamp": "1652748014",
+            "immatriculation": "OH-740-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.7,
+            "geo": {
+                "lat": 43.71449,
+                "lon": 16.078349
+            },
+            "timestamp": "1653243261",
+            "immatriculation": "SO-622-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.3,
+            "geo": {
+                "lat": 43.725596,
+                "lon": 16.054115
+            },
+            "timestamp": "1670535788",
+            "immatriculation": "OK-660-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 59.2,
+            "geo": {
+                "lat": 43.471564,
+                "lon": 16.534997
+            },
+            "timestamp": "1646677142",
+            "immatriculation": "DO-818-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.8,
+            "geo": {
+                "lat": 43.608552,
+                "lon": 16.349297
+            },
+            "timestamp": "1657458490",
+            "immatriculation": "ID-742-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 128.8,
+            "geo": {
+                "lat": 43.740631,
+                "lon": 16.976311
+            },
+            "timestamp": "1649901629",
+            "immatriculation": "UP-810-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.1,
+            "geo": {
+                "lat": 43.547757,
+                "lon": 16.690074
+            },
+            "timestamp": "1665599081",
+            "immatriculation": "MR-378-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 78.4,
+            "geo": {
+                "lat": 43.274723,
+                "lon": 16.484269
+            },
+            "timestamp": "1664274251",
+            "immatriculation": "EH-238-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 55.9,
+            "geo": {
+                "lat": 43.363348,
+                "lon": 16.392932
+            },
+            "timestamp": "1654825707",
+            "immatriculation": "MU-507-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 26.4,
+            "geo": {
+                "lat": 43.296992,
+                "lon": 16.605778
+            },
+            "timestamp": "1646687830",
+            "immatriculation": "CS-880-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 62.6,
+            "geo": {
+                "lat": 43.877571,
+                "lon": 16.991952
+            },
+            "timestamp": "1655498221",
+            "immatriculation": "AS-120-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 22.5,
+            "geo": {
+                "lat": 43.794493,
+                "lon": 16.883008
+            },
+            "timestamp": "1649446432",
+            "immatriculation": "EH-015-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 26.5,
+            "geo": {
+                "lat": 43.08456,
+                "lon": 16.10574
+            },
+            "timestamp": "1647795914",
+            "immatriculation": "WE-708-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 128.5,
+            "geo": {
+                "lat": 43.069013,
+                "lon": 16.009731
+            },
+            "timestamp": "1655290183",
+            "immatriculation": "MA-819-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 116.5,
+            "geo": {
+                "lat": 43.835278,
+                "lon": 16.219925
+            },
+            "timestamp": "1652303881",
+            "immatriculation": "MA-523-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.3,
+            "geo": {
+                "lat": 43.970628,
+                "lon": 16.699919
+            },
+            "timestamp": "1642467609",
+            "immatriculation": "OH-899-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 17.3,
+            "geo": {
+                "lat": 43.180146,
+                "lon": 16.204096
+            },
+            "timestamp": "1642343766",
+            "immatriculation": "OK-764-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.2,
+            "geo": {
+                "lat": 43.675365,
+                "lon": 16.933156
+            },
+            "timestamp": "1647034644",
+            "immatriculation": "ON-202-EM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.8,
+            "geo": {
+                "lat": 43.536012,
+                "lon": 16.953071
+            },
+            "timestamp": "1671215536",
+            "immatriculation": "OK-972-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.4,
+            "geo": {
+                "lat": 43.997887,
+                "lon": 16.641255
+            },
+            "timestamp": "1653946831",
+            "immatriculation": "ME-053-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 29.5,
+            "geo": {
+                "lat": 43.38639,
+                "lon": 16.834506
+            },
+            "timestamp": "1648771590",
+            "immatriculation": "NO-966-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 129.0,
+            "geo": {
+                "lat": 43.11729,
+                "lon": 16.252421
+            },
+            "timestamp": "1670645958",
+            "immatriculation": "AY-126-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 117.7,
+            "geo": {
+                "lat": 43.102986,
+                "lon": 16.281637
+            },
+            "timestamp": "1664549244",
+            "immatriculation": "OF-962-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.4,
+            "geo": {
+                "lat": 43.362196,
+                "lon": 16.211391
+            },
+            "timestamp": "1643764678",
+            "immatriculation": "IS-221-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 91.4,
+            "geo": {
+                "lat": 43.156657,
+                "lon": 16.46529
+            },
+            "timestamp": "1659193918",
+            "immatriculation": "IT-965-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 11.2,
+            "geo": {
+                "lat": 43.723321,
+                "lon": 16.525098
+            },
+            "timestamp": "1644675295",
+            "immatriculation": "HA-712-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 58.0,
+            "geo": {
+                "lat": 43.356131,
+                "lon": 16.166995
+            },
+            "timestamp": "1644884099",
+            "immatriculation": "CS-139-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 6.1,
+            "geo": {
+                "lat": 43.167221,
+                "lon": 16.081816
+            },
+            "timestamp": "1646078357",
+            "immatriculation": "GO-189-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 46.6,
+            "geo": {
+                "lat": 43.4913,
+                "lon": 16.470903
+            },
+            "timestamp": "1649533213",
+            "immatriculation": "OX-657-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 50.1,
+            "geo": {
+                "lat": 43.663859,
+                "lon": 16.305435
+            },
+            "timestamp": "1648097997",
+            "immatriculation": "AX-922-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 9.1,
+            "geo": {
+                "lat": 43.203118,
+                "lon": 16.007636
+            },
+            "timestamp": "1664552047",
+            "immatriculation": "IT-854-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.4,
+            "geo": {
+                "lat": 43.61363,
+                "lon": 16.682256
+            },
+            "timestamp": "1673133517",
+            "immatriculation": "HA-121-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 58.4,
+            "geo": {
+                "lat": 43.905858,
+                "lon": 16.084186
+            },
+            "timestamp": "1651691424",
+            "immatriculation": "PA-234-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 16.0,
+            "geo": {
+                "lat": 43.14543,
+                "lon": 16.515641
+            },
+            "timestamp": "1660760485",
+            "immatriculation": "AS-304-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 50.1,
+            "geo": {
+                "lat": 43.247273,
+                "lon": 16.359019
+            },
+            "timestamp": "1659082434",
+            "immatriculation": "OR-487-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.9,
+            "geo": {
+                "lat": 43.973685,
+                "lon": 16.299927
+            },
+            "timestamp": "1655354202",
+            "immatriculation": "PI-881-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 27.1,
+            "geo": {
+                "lat": 43.150457,
+                "lon": 16.183783
+            },
+            "timestamp": "1664563311",
+            "immatriculation": "OR-109-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 127.6,
+            "geo": {
+                "lat": 43.766853,
+                "lon": 16.944203
+            },
+            "timestamp": "1659002579",
+            "immatriculation": "CS-459-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 51.4,
+            "geo": {
+                "lat": 43.459178,
+                "lon": 16.111369
+            },
+            "timestamp": "1654206826",
+            "immatriculation": "EH-941-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 114.6,
+            "geo": {
+                "lat": 43.535391,
+                "lon": 16.475466
+            },
+            "timestamp": "1672265317",
+            "immatriculation": "BY-210-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 125.1,
+            "geo": {
+                "lat": 43.062403,
+                "lon": 16.809512
+            },
+            "timestamp": "1669970300",
+            "immatriculation": "HO-279-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 15.8,
+            "geo": {
+                "lat": 43.480039,
+                "lon": 16.091809
+            },
+            "timestamp": "1650985307",
+            "immatriculation": "OH-703-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 80.5,
+            "geo": {
+                "lat": 43.188704,
+                "lon": 16.383316
+            },
+            "timestamp": "1657612508",
+            "immatriculation": "GO-460-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 79.9,
+            "geo": {
+                "lat": 43.601567,
+                "lon": 16.944852
+            },
+            "timestamp": "1648070062",
+            "immatriculation": "MU-709-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 46.3,
+            "geo": {
+                "lat": 43.483353,
+                "lon": 16.65253
+            },
+            "timestamp": "1643783791",
+            "immatriculation": "TO-788-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 117.9,
+            "geo": {
+                "lat": 43.702525,
+                "lon": 16.224485
+            },
+            "timestamp": "1653464877",
+            "immatriculation": "AS-034-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 74.2,
+            "geo": {
+                "lat": 43.553408,
+                "lon": 16.015713
+            },
+            "timestamp": "1645579803",
+            "immatriculation": "MS-579-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.7,
+            "geo": {
+                "lat": 43.972368,
+                "lon": 16.33251
+            },
+            "timestamp": "1643414307",
+            "immatriculation": "IF-064-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.7,
+            "geo": {
+                "lat": 43.413672,
+                "lon": 16.998486
+            },
+            "timestamp": "1657897540",
+            "immatriculation": "OH-074-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 89.9,
+            "geo": {
+                "lat": 43.02156,
+                "lon": 16.216627
+            },
+            "timestamp": "1672921685",
+            "immatriculation": "HO-138-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.5,
+            "geo": {
+                "lat": 43.962332,
+                "lon": 16.930136
+            },
+            "timestamp": "1652580317",
+            "immatriculation": "IN-357-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.9,
+            "geo": {
+                "lat": 43.539666,
+                "lon": 16.199642
+            },
+            "timestamp": "1660407955",
+            "immatriculation": "AH-536-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 90.9,
+            "geo": {
+                "lat": 43.437234,
+                "lon": 16.104485
+            },
+            "timestamp": "1669189147",
+            "immatriculation": "CS-995-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 21.5,
+            "geo": {
+                "lat": 43.195855,
+                "lon": 16.318991
+            },
+            "timestamp": "1661128051",
+            "immatriculation": "HA-650-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.9,
+            "geo": {
+                "lat": 43.421445,
+                "lon": 16.194472
+            },
+            "timestamp": "1673476070",
+            "immatriculation": "CS-375-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 127.8,
+            "geo": {
+                "lat": 43.633702,
+                "lon": 16.667814
+            },
+            "timestamp": "1671505179",
+            "immatriculation": "AM-996-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 51.4,
+            "geo": {
+                "lat": 43.174301,
+                "lon": 16.905782
+            },
+            "timestamp": "1668532588",
+            "immatriculation": "WE-778-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 61.8,
+            "geo": {
+                "lat": 43.493375,
+                "lon": 16.073279
+            },
+            "timestamp": "1643448892",
+            "immatriculation": "AT-024-UP"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 104.1,
+            "geo": {
+                "lat": 43.490012,
+                "lon": 16.018672
+            },
+            "timestamp": "1651805492",
+            "immatriculation": "EH-097-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 124.1,
+            "geo": {
+                "lat": 43.233534,
+                "lon": 16.10175
+            },
+            "timestamp": "1666776952",
+            "immatriculation": "HO-002-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 100.9,
+            "geo": {
+                "lat": 43.509922,
+                "lon": 16.870891
+            },
+            "timestamp": "1653564632",
+            "immatriculation": "RE-748-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.2,
+            "geo": {
+                "lat": 43.251115,
+                "lon": 16.103901
+            },
+            "timestamp": "1669147365",
+            "immatriculation": "OH-739-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.9,
+            "geo": {
+                "lat": 43.730137,
+                "lon": 16.491175
+            },
+            "timestamp": "1664113095",
+            "immatriculation": "OF-867-AS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 77.4,
+            "geo": {
+                "lat": 43.572413,
+                "lon": 16.637603
+            },
+            "timestamp": "1666527439",
+            "immatriculation": "AX-941-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 11.4,
+            "geo": {
+                "lat": 43.075368,
+                "lon": 16.185742
+            },
+            "timestamp": "1650235453",
+            "immatriculation": "HO-311-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.5,
+            "geo": {
+                "lat": 43.297785,
+                "lon": 16.771174
+            },
+            "timestamp": "1657897352",
+            "immatriculation": "HO-915-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.5,
+            "geo": {
+                "lat": 43.519829,
+                "lon": 16.351613
+            },
+            "timestamp": "1642061630",
+            "immatriculation": "IS-057-AX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 11.5,
+            "geo": {
+                "lat": 43.492682,
+                "lon": 16.190257
+            },
+            "timestamp": "1669895665",
+            "immatriculation": "OR-959-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 34.3,
+            "geo": {
+                "lat": 43.785477,
+                "lon": 16.095538
+            },
+            "timestamp": "1644030896",
+            "immatriculation": "HO-315-BY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.8,
+            "geo": {
+                "lat": 43.71372,
+                "lon": 16.835668
+            },
+            "timestamp": "1658707471",
+            "immatriculation": "AX-799-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 74.6,
+            "geo": {
+                "lat": 43.680725,
+                "lon": 16.358351
+            },
+            "timestamp": "1655882277",
+            "immatriculation": "MS-936-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 20.4,
+            "geo": {
+                "lat": 43.353931,
+                "lon": 16.826193
+            },
+            "timestamp": "1650021274",
+            "immatriculation": "AM-956-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 57.3,
+            "geo": {
+                "lat": 43.15012,
+                "lon": 16.427763
+            },
+            "timestamp": "1673123753",
+            "immatriculation": "AH-485-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.0,
+            "geo": {
+                "lat": 43.639493,
+                "lon": 16.184255
+            },
+            "timestamp": "1643899987",
+            "immatriculation": "HE-909-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 80.1,
+            "geo": {
+                "lat": 43.621669,
+                "lon": 16.683698
+            },
+            "timestamp": "1667977066",
+            "immatriculation": "PA-558-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 49.4,
+            "geo": {
+                "lat": 43.48739,
+                "lon": 16.866376
+            },
+            "timestamp": "1672180462",
+            "immatriculation": "BY-313-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 112.4,
+            "geo": {
+                "lat": 43.122056,
+                "lon": 16.888924
+            },
+            "timestamp": "1657767232",
+            "immatriculation": "EM-166-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.3,
+            "geo": {
+                "lat": 43.056125,
+                "lon": 16.208352
+            },
+            "timestamp": "1655099719",
+            "immatriculation": "ES-586-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 26.3,
+            "geo": {
+                "lat": 43.420104,
+                "lon": 16.370414
+            },
+            "timestamp": "1668916230",
+            "immatriculation": "ME-822-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 12.2,
+            "geo": {
+                "lat": 43.030125,
+                "lon": 16.613392
+            },
+            "timestamp": "1654268136",
+            "immatriculation": "IN-917-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 55.3,
+            "geo": {
+                "lat": 43.41565,
+                "lon": 16.026285
+            },
+            "timestamp": "1663220444",
+            "immatriculation": "AN-180-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 48.5,
+            "geo": {
+                "lat": 43.968077,
+                "lon": 16.780639
+            },
+            "timestamp": "1672176752",
+            "immatriculation": "OS-691-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.0,
+            "geo": {
+                "lat": 43.093969,
+                "lon": 16.695784
+            },
+            "timestamp": "1660826581",
+            "immatriculation": "DO-639-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 87.6,
+            "geo": {
+                "lat": 43.886278,
+                "lon": 16.700907
+            },
+            "timestamp": "1647013919",
+            "immatriculation": "WE-602-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 62.6,
+            "geo": {
+                "lat": 43.337581,
+                "lon": 16.703742
+            },
+            "timestamp": "1645594708",
+            "immatriculation": "EM-961-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 34.2,
+            "geo": {
+                "lat": 43.753599,
+                "lon": 16.024621
+            },
+            "timestamp": "1645407482",
+            "immatriculation": "EH-677-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.9,
+            "geo": {
+                "lat": 43.919184,
+                "lon": 16.813912
+            },
+            "timestamp": "1657993455",
+            "immatriculation": "OK-636-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 91.6,
+            "geo": {
+                "lat": 43.410011,
+                "lon": 16.608111
+            },
+            "timestamp": "1644388561",
+            "immatriculation": "US-475-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.1,
+            "geo": {
+                "lat": 43.363608,
+                "lon": 16.967606
+            },
+            "timestamp": "1669779348",
+            "immatriculation": "MU-294-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 57.5,
+            "geo": {
+                "lat": 43.81215,
+                "lon": 16.631402
+            },
+            "timestamp": "1648866654",
+            "immatriculation": "UP-516-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 16.7,
+            "geo": {
+                "lat": 43.391623,
+                "lon": 16.054147
+            },
+            "timestamp": "1657664355",
+            "immatriculation": "US-367-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 76.3,
+            "geo": {
+                "lat": 43.293646,
+                "lon": 16.41316
+            },
+            "timestamp": "1669594260",
+            "immatriculation": "HE-119-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 22.2,
+            "geo": {
+                "lat": 43.684437,
+                "lon": 16.279821
+            },
+            "timestamp": "1667789953",
+            "immatriculation": "US-547-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 114.3,
+            "geo": {
+                "lat": 43.770816,
+                "lon": 16.011355
+            },
+            "timestamp": "1662912391",
+            "immatriculation": "CS-455-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 20.9,
+            "geo": {
+                "lat": 43.261748,
+                "lon": 16.15776
+            },
+            "timestamp": "1642292208",
+            "immatriculation": "WE-569-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 15.1,
+            "geo": {
+                "lat": 43.378263,
+                "lon": 16.558454
+            },
+            "timestamp": "1651250365",
+            "immatriculation": "CS-351-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 111.4,
+            "geo": {
+                "lat": 43.168455,
+                "lon": 16.246731
+            },
+            "timestamp": "1664249134",
+            "immatriculation": "EM-383-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 75.1,
+            "geo": {
+                "lat": 43.563444,
+                "lon": 16.930956
+            },
+            "timestamp": "1659268532",
+            "immatriculation": "WE-774-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.8,
+            "geo": {
+                "lat": 43.307611,
+                "lon": 16.012703
+            },
+            "timestamp": "1656366628",
+            "immatriculation": "PA-401-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.3,
+            "geo": {
+                "lat": 43.945658,
+                "lon": 16.999061
+            },
+            "timestamp": "1657869662",
+            "immatriculation": "AN-382-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 43.0,
+            "geo": {
+                "lat": 43.149327,
+                "lon": 16.372583
+            },
+            "timestamp": "1662267906",
+            "immatriculation": "ME-674-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 34.5,
+            "geo": {
+                "lat": 43.823539,
+                "lon": 16.079655
+            },
+            "timestamp": "1647409472",
+            "immatriculation": "ID-582-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 63.5,
+            "geo": {
+                "lat": 43.232046,
+                "lon": 16.141173
+            },
+            "timestamp": "1668428173",
+            "immatriculation": "HA-243-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 73.2,
+            "geo": {
+                "lat": 43.409219,
+                "lon": 16.054837
+            },
+            "timestamp": "1652995775",
+            "immatriculation": "IT-834-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.2,
+            "geo": {
+                "lat": 43.381778,
+                "lon": 16.350525
+            },
+            "timestamp": "1662214674",
+            "immatriculation": "AX-503-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.5,
+            "geo": {
+                "lat": 43.759441,
+                "lon": 16.259595
+            },
+            "timestamp": "1650480973",
+            "immatriculation": "WE-068-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.5,
+            "geo": {
+                "lat": 43.314696,
+                "lon": 16.469595
+            },
+            "timestamp": "1644125161",
+            "immatriculation": "IS-195-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 128.4,
+            "geo": {
+                "lat": 43.426501,
+                "lon": 16.045914
+            },
+            "timestamp": "1650884348",
+            "immatriculation": "OF-075-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.8,
+            "geo": {
+                "lat": 43.650455,
+                "lon": 16.478224
+            },
+            "timestamp": "1670585459",
+            "immatriculation": "IN-557-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 110.5,
+            "geo": {
+                "lat": 43.071685,
+                "lon": 16.513874
+            },
+            "timestamp": "1663100192",
+            "immatriculation": "PI-908-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 23.9,
+            "geo": {
+                "lat": 43.299612,
+                "lon": 16.731195
+            },
+            "timestamp": "1661004917",
+            "immatriculation": "IT-443-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 84.6,
+            "geo": {
+                "lat": 43.990543,
+                "lon": 16.081468
+            },
+            "timestamp": "1662871265",
+            "immatriculation": "HO-670-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 31.1,
+            "geo": {
+                "lat": 43.048323,
+                "lon": 16.798269
+            },
+            "timestamp": "1648135159",
+            "immatriculation": "HO-757-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.0,
+            "geo": {
+                "lat": 43.570126,
+                "lon": 16.245457
+            },
+            "timestamp": "1645021882",
+            "immatriculation": "UP-508-IN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 15.8,
+            "geo": {
+                "lat": 43.902897,
+                "lon": 16.578899
+            },
+            "timestamp": "1664232093",
+            "immatriculation": "PI-183-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 101.0,
+            "geo": {
+                "lat": 43.599455,
+                "lon": 16.119497
+            },
+            "timestamp": "1669836148",
+            "immatriculation": "PI-553-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 86.6,
+            "geo": {
+                "lat": 43.378776,
+                "lon": 16.265672
+            },
+            "timestamp": "1652883852",
+            "immatriculation": "DO-069-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 57.8,
+            "geo": {
+                "lat": 43.63877,
+                "lon": 16.217951
+            },
+            "timestamp": "1652067087",
+            "immatriculation": "BY-748-OX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 82.7,
+            "geo": {
+                "lat": 43.043562,
+                "lon": 16.399805
+            },
+            "timestamp": "1670950110",
+            "immatriculation": "AM-829-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 122.7,
+            "geo": {
+                "lat": 43.576914,
+                "lon": 16.911231
+            },
+            "timestamp": "1665504653",
+            "immatriculation": "IF-367-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 78.2,
+            "geo": {
+                "lat": 43.547104,
+                "lon": 16.576402
+            },
+            "timestamp": "1651641866",
+            "immatriculation": "UP-033-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 83.9,
+            "geo": {
+                "lat": 43.967599,
+                "lon": 16.652166
+            },
+            "timestamp": "1655785980",
+            "immatriculation": "ME-376-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 124.8,
+            "geo": {
+                "lat": 43.606811,
+                "lon": 16.441466
+            },
+            "timestamp": "1667392375",
+            "immatriculation": "MS-997-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 10.9,
+            "geo": {
+                "lat": 43.93063,
+                "lon": 16.170979
+            },
+            "timestamp": "1651583007",
+            "immatriculation": "ES-084-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 38.0,
+            "geo": {
+                "lat": 43.276347,
+                "lon": 16.505787
+            },
+            "timestamp": "1649259029",
+            "immatriculation": "OF-377-EH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.3,
+            "geo": {
+                "lat": 43.330321,
+                "lon": 16.23546
+            },
+            "timestamp": "1643411585",
+            "immatriculation": "AN-649-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 39.0,
+            "geo": {
+                "lat": 43.243438,
+                "lon": 16.378661
+            },
+            "timestamp": "1664312643",
+            "immatriculation": "AY-998-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 12.8,
+            "geo": {
+                "lat": 43.64497,
+                "lon": 16.633947
+            },
+            "timestamp": "1646147199",
+            "immatriculation": "BY-675-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.8,
+            "geo": {
+                "lat": 43.319828,
+                "lon": 16.772324
+            },
+            "timestamp": "1663713263",
+            "immatriculation": "DO-273-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 84.0,
+            "geo": {
+                "lat": 43.114857,
+                "lon": 16.511272
+            },
+            "timestamp": "1660374893",
+            "immatriculation": "OF-019-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 123.3,
+            "geo": {
+                "lat": 43.18888,
+                "lon": 16.338231
+            },
+            "timestamp": "1643374390",
+            "immatriculation": "AY-297-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 32.1,
+            "geo": {
+                "lat": 43.13832,
+                "lon": 16.780456
+            },
+            "timestamp": "1658161558",
+            "immatriculation": "SO-108-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.9,
+            "geo": {
+                "lat": 43.468403,
+                "lon": 16.867628
+            },
+            "timestamp": "1656223947",
+            "immatriculation": "ID-920-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 116.8,
+            "geo": {
+                "lat": 43.603428,
+                "lon": 16.225633
+            },
+            "timestamp": "1647071987",
+            "immatriculation": "AN-382-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 98.6,
+            "geo": {
+                "lat": 43.025286,
+                "lon": 16.858359
+            },
+            "timestamp": "1653907136",
+            "immatriculation": "DO-441-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.7,
+            "geo": {
+                "lat": 43.508341,
+                "lon": 16.736929
+            },
+            "timestamp": "1648969384",
+            "immatriculation": "DO-754-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.6,
+            "geo": {
+                "lat": 43.001367,
+                "lon": 16.914434
+            },
+            "timestamp": "1672161706",
+            "immatriculation": "IT-152-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 18.4,
+            "geo": {
+                "lat": 43.811175,
+                "lon": 16.466726
+            },
+            "timestamp": "1650970862",
+            "immatriculation": "AT-851-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 16.9,
+            "geo": {
+                "lat": 43.023194,
+                "lon": 16.772889
+            },
+            "timestamp": "1660127232",
+            "immatriculation": "AM-677-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.9,
+            "geo": {
+                "lat": 43.047176,
+                "lon": 16.405175
+            },
+            "timestamp": "1650733915",
+            "immatriculation": "MU-331-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 7.4,
+            "geo": {
+                "lat": 43.037649,
+                "lon": 16.580329
+            },
+            "timestamp": "1663981459",
+            "immatriculation": "AT-114-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.2,
+            "geo": {
+                "lat": 43.713823,
+                "lon": 16.674612
+            },
+            "timestamp": "1652579415",
+            "immatriculation": "DO-906-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 79.9,
+            "geo": {
+                "lat": 43.397009,
+                "lon": 16.412337
+            },
+            "timestamp": "1645344486",
+            "immatriculation": "AH-688-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 107.6,
+            "geo": {
+                "lat": 43.945023,
+                "lon": 16.481941
+            },
+            "timestamp": "1647087308",
+            "immatriculation": "MS-214-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 14.5,
+            "geo": {
+                "lat": 43.431926,
+                "lon": 16.722313
+            },
+            "timestamp": "1650605743",
+            "immatriculation": "MA-783-AM"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 56.5,
+            "geo": {
+                "lat": 43.180405,
+                "lon": 16.464053
+            },
+            "timestamp": "1668005933",
+            "immatriculation": "MU-759-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.6,
+            "geo": {
+                "lat": 43.605756,
+                "lon": 16.50238
+            },
+            "timestamp": "1672763173",
+            "immatriculation": "ON-334-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 89.2,
+            "geo": {
+                "lat": 43.863214,
+                "lon": 16.117686
+            },
+            "timestamp": "1653572808",
+            "immatriculation": "ID-922-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 81.8,
+            "geo": {
+                "lat": 43.601806,
+                "lon": 16.03947
+            },
+            "timestamp": "1651166583",
+            "immatriculation": "MS-373-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 23.7,
+            "geo": {
+                "lat": 43.292148,
+                "lon": 16.423854
+            },
+            "timestamp": "1643124649",
+            "immatriculation": "NO-537-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.7,
+            "geo": {
+                "lat": 43.329591,
+                "lon": 16.936901
+            },
+            "timestamp": "1654342955",
+            "immatriculation": "OF-933-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 28.6,
+            "geo": {
+                "lat": 43.563685,
+                "lon": 16.168005
+            },
+            "timestamp": "1666933427",
+            "immatriculation": "IT-110-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 26.3,
+            "geo": {
+                "lat": 43.385641,
+                "lon": 16.10136
+            },
+            "timestamp": "1648500613",
+            "immatriculation": "ON-694-MA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.0,
+            "geo": {
+                "lat": 43.282086,
+                "lon": 16.715402
+            },
+            "timestamp": "1661793736",
+            "immatriculation": "ES-380-NO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 68.9,
+            "geo": {
+                "lat": 43.763343,
+                "lon": 16.782889
+            },
+            "timestamp": "1671627718",
+            "immatriculation": "OK-877-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 87.1,
+            "geo": {
+                "lat": 43.054141,
+                "lon": 16.378308
+            },
+            "timestamp": "1670354314",
+            "immatriculation": "HE-879-IT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 44.7,
+            "geo": {
+                "lat": 43.234133,
+                "lon": 16.666481
+            },
+            "timestamp": "1658324198",
+            "immatriculation": "US-925-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 113.0,
+            "geo": {
+                "lat": 43.55523,
+                "lon": 16.375297
+            },
+            "timestamp": "1660336500",
+            "immatriculation": "IN-999-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 58.3,
+            "geo": {
+                "lat": 43.811613,
+                "lon": 16.105231
+            },
+            "timestamp": "1667217162",
+            "immatriculation": "BE-809-WE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 41.2,
+            "geo": {
+                "lat": 43.86666,
+                "lon": 16.216552
+            },
+            "timestamp": "1655947913",
+            "immatriculation": "BY-821-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 35.5,
+            "geo": {
+                "lat": 43.427693,
+                "lon": 16.661372
+            },
+            "timestamp": "1672088540",
+            "immatriculation": "AD-698-HE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 80.6,
+            "geo": {
+                "lat": 43.743905,
+                "lon": 16.473661
+            },
+            "timestamp": "1657750904",
+            "immatriculation": "ON-021-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 35.0,
+            "geo": {
+                "lat": 43.297292,
+                "lon": 16.779195
+            },
+            "timestamp": "1658380140",
+            "immatriculation": "OS-856-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 113.1,
+            "geo": {
+                "lat": 43.123531,
+                "lon": 16.943549
+            },
+            "timestamp": "1658291480",
+            "immatriculation": "OS-827-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 94.4,
+            "geo": {
+                "lat": 43.464642,
+                "lon": 16.498096
+            },
+            "timestamp": "1654863329",
+            "immatriculation": "RE-825-AH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 109.4,
+            "geo": {
+                "lat": 43.129954,
+                "lon": 16.96741
+            },
+            "timestamp": "1672890992",
+            "immatriculation": "AY-688-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 79.8,
+            "geo": {
+                "lat": 43.388229,
+                "lon": 16.209693
+            },
+            "timestamp": "1651808205",
+            "immatriculation": "EH-856-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.0,
+            "geo": {
+                "lat": 43.573316,
+                "lon": 16.088645
+            },
+            "timestamp": "1644404119",
+            "immatriculation": "MY-123-AX"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 35.3,
+            "geo": {
+                "lat": 43.73758,
+                "lon": 16.181016
+            },
+            "timestamp": "1671165975",
+            "immatriculation": "TO-028-OR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 60.2,
+            "geo": {
+                "lat": 43.432926,
+                "lon": 16.192035
+            },
+            "timestamp": "1650653585",
+            "immatriculation": "SO-378-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 120.6,
+            "geo": {
+                "lat": 43.758037,
+                "lon": 16.006114
+            },
+            "timestamp": "1646658192",
+            "immatriculation": "MU-836-RE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 129.9,
+            "geo": {
+                "lat": 43.873946,
+                "lon": 16.514512
+            },
+            "timestamp": "1658854530",
+            "immatriculation": "IS-324-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 13.9,
+            "geo": {
+                "lat": 43.56968,
+                "lon": 16.629264
+            },
+            "timestamp": "1660006354",
+            "immatriculation": "OH-978-GO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 40.3,
+            "geo": {
+                "lat": 43.527629,
+                "lon": 16.956698
+            },
+            "timestamp": "1652768752",
+            "immatriculation": "HI-742-MR"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 19.6,
+            "geo": {
+                "lat": 43.774108,
+                "lon": 16.86618
+            },
+            "timestamp": "1662593357",
+            "immatriculation": "CS-272-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 10.5,
+            "geo": {
+                "lat": 43.346161,
+                "lon": 16.243818
+            },
+            "timestamp": "1672713784",
+            "immatriculation": "CS-862-ON"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 52.2,
+            "geo": {
+                "lat": 43.331718,
+                "lon": 16.382558
+            },
+            "timestamp": "1648049583",
+            "immatriculation": "ON-854-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 87.8,
+            "geo": {
+                "lat": 43.501927,
+                "lon": 16.190527
+            },
+            "timestamp": "1651851843",
+            "immatriculation": "IN-931-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 8.8,
+            "geo": {
+                "lat": 43.186868,
+                "lon": 16.452026
+            },
+            "timestamp": "1652168471",
+            "immatriculation": "AM-216-AT"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 50.7,
+            "geo": {
+                "lat": 43.01066,
+                "lon": 16.351704
+            },
+            "timestamp": "1643513935",
+            "immatriculation": "AX-333-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 41.2,
+            "geo": {
+                "lat": 43.564786,
+                "lon": 16.043748
+            },
+            "timestamp": "1670242361",
+            "immatriculation": "MA-263-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 37.9,
+            "geo": {
+                "lat": 43.050661,
+                "lon": 16.299819
+            },
+            "timestamp": "1666177444",
+            "immatriculation": "OK-615-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 30.1,
+            "geo": {
+                "lat": 43.239328,
+                "lon": 16.262284
+            },
+            "timestamp": "1652473816",
+            "immatriculation": "MR-674-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 7.7,
+            "geo": {
+                "lat": 43.270808,
+                "lon": 16.113842
+            },
+            "timestamp": "1642406368",
+            "immatriculation": "ON-572-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 60.5,
+            "geo": {
+                "lat": 43.158508,
+                "lon": 16.483553
+            },
+            "timestamp": "1648685334",
+            "immatriculation": "HE-354-IF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 9.7,
+            "geo": {
+                "lat": 43.629885,
+                "lon": 16.343733
+            },
+            "timestamp": "1673468597",
+            "immatriculation": "ME-246-US"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 83.2,
+            "geo": {
+                "lat": 43.561772,
+                "lon": 16.620842
+            },
+            "timestamp": "1648648778",
+            "immatriculation": "UP-610-MY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 32.0,
+            "geo": {
+                "lat": 43.981384,
+                "lon": 16.778186
+            },
+            "timestamp": "1672632109",
+            "immatriculation": "CS-114-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.9,
+            "geo": {
+                "lat": 43.454075,
+                "lon": 16.679573
+            },
+            "timestamp": "1655352673",
+            "immatriculation": "MY-044-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 57.3,
+            "geo": {
+                "lat": 43.202331,
+                "lon": 16.730865
+            },
+            "timestamp": "1667345698",
+            "immatriculation": "MY-238-HI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 97.4,
+            "geo": {
+                "lat": 43.011748,
+                "lon": 16.831709
+            },
+            "timestamp": "1664356927",
+            "immatriculation": "MS-699-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 67.9,
+            "geo": {
+                "lat": 43.632384,
+                "lon": 16.57046
+            },
+            "timestamp": "1668334111",
+            "immatriculation": "AN-534-TO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 10.9,
+            "geo": {
+                "lat": 43.71983,
+                "lon": 16.900928
+            },
+            "timestamp": "1652711671",
+            "immatriculation": "US-957-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.2,
+            "geo": {
+                "lat": 43.675225,
+                "lon": 16.180356
+            },
+            "timestamp": "1643482536",
+            "immatriculation": "PI-988-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 25.0,
+            "geo": {
+                "lat": 43.971364,
+                "lon": 16.674352
+            },
+            "timestamp": "1667499226",
+            "immatriculation": "BE-035-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 50.1,
+            "geo": {
+                "lat": 43.155024,
+                "lon": 16.66178
+            },
+            "timestamp": "1662552896",
+            "immatriculation": "BE-992-BE"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 23.1,
+            "geo": {
+                "lat": 43.7288,
+                "lon": 16.14608
+            },
+            "timestamp": "1670054290",
+            "immatriculation": "MU-500-ME"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 18.4,
+            "geo": {
+                "lat": 43.085096,
+                "lon": 16.880613
+            },
+            "timestamp": "1656827956",
+            "immatriculation": "ON-627-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 92.0,
+            "geo": {
+                "lat": 43.25612,
+                "lon": 16.653803
+            },
+            "timestamp": "1665750959",
+            "immatriculation": "PA-319-OK"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 88.9,
+            "geo": {
+                "lat": 43.888892,
+                "lon": 16.098089
+            },
+            "timestamp": "1642304534",
+            "immatriculation": "IF-101-DO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 103.9,
+            "geo": {
+                "lat": 43.714406,
+                "lon": 16.450288
+            },
+            "timestamp": "1663916129",
+            "immatriculation": "BY-935-PA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 108.1,
+            "geo": {
+                "lat": 43.28595,
+                "lon": 16.8577
+            },
+            "timestamp": "1659371998",
+            "immatriculation": "AD-805-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 113.1,
+            "geo": {
+                "lat": 43.625027,
+                "lon": 16.480046
+            },
+            "timestamp": "1669881086",
+            "immatriculation": "OK-868-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 90.5,
+            "geo": {
+                "lat": 43.765695,
+                "lon": 16.303544
+            },
+            "timestamp": "1666264401",
+            "immatriculation": "AN-515-ES"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 2.9,
+            "geo": {
+                "lat": 43.381838,
+                "lon": 16.128852
+            },
+            "timestamp": "1647412008",
+            "immatriculation": "HA-868-AN"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 83.9,
+            "geo": {
+                "lat": 43.22172,
+                "lon": 16.890091
+            },
+            "timestamp": "1665527126",
+            "immatriculation": "DO-213-OS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 69.9,
+            "geo": {
+                "lat": 43.325989,
+                "lon": 16.639531
+            },
+            "timestamp": "1670041467",
+            "immatriculation": "WE-916-AY"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 28.4,
+            "geo": {
+                "lat": 43.849832,
+                "lon": 16.33991
+            },
+            "timestamp": "1648767536",
+            "immatriculation": "WE-965-ID"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 43.0,
+            "geo": {
+                "lat": 43.664963,
+                "lon": 16.227231
+            },
+            "timestamp": "1667235374",
+            "immatriculation": "OF-812-CS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 24.7,
+            "geo": {
+                "lat": 43.319977,
+                "lon": 16.877945
+            },
+            "timestamp": "1668892015",
+            "immatriculation": "ME-796-OH"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 49.1,
+            "geo": {
+                "lat": 43.451274,
+                "lon": 16.224877
+            },
+            "timestamp": "1653292796",
+            "immatriculation": "AT-772-IS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 124.3,
+            "geo": {
+                "lat": 43.684978,
+                "lon": 16.208028
+            },
+            "timestamp": "1669871533",
+            "immatriculation": "MA-599-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 89.4,
+            "geo": {
+                "lat": 43.47251,
+                "lon": 16.510005
+            },
+            "timestamp": "1645940971",
+            "immatriculation": "AM-114-OF"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 52.0,
+            "geo": {
+                "lat": 43.40313,
+                "lon": 16.745625
+            },
+            "timestamp": "1660265615",
+            "immatriculation": "AM-282-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 63.9,
+            "geo": {
+                "lat": 43.170578,
+                "lon": 16.557494
+            },
+            "timestamp": "1661272846",
+            "immatriculation": "TO-860-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 39.8,
+            "geo": {
+                "lat": 43.551593,
+                "lon": 16.625004
+            },
+            "timestamp": "1656572123",
+            "immatriculation": "MS-899-AD"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 5.0,
+            "geo": {
+                "lat": 43.172263,
+                "lon": 16.432715
+            },
+            "timestamp": "1669863507",
+            "immatriculation": "CS-137-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 37.8,
+            "geo": {
+                "lat": 43.289298,
+                "lon": 16.783588
+            },
+            "timestamp": "1651861282",
+            "immatriculation": "US-953-MS"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 86.8,
+            "geo": {
+                "lat": 43.117435,
+                "lon": 16.887042
+            },
+            "timestamp": "1655989179",
+            "immatriculation": "HA-196-HO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 71.8,
+            "geo": {
+                "lat": 43.737464,
+                "lon": 16.489177
+            },
+            "timestamp": "1671345122",
+            "immatriculation": "BY-060-MU"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 42.9,
+            "geo": {
+                "lat": 43.733139,
+                "lon": 16.997925
+            },
+            "timestamp": "1645374269",
+            "immatriculation": "UP-810-SO"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 97.2,
+            "geo": {
+                "lat": 43.6451,
+                "lon": 16.730769
+            },
+            "timestamp": "1666913040",
+            "immatriculation": "UP-245-PI"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 80.9,
+            "geo": {
+                "lat": 43.269272,
+                "lon": 16.264906
+            },
+            "timestamp": "1649362971",
+            "immatriculation": "HE-962-HA"
+        },
+        {
+            "type": "periodique",
+            "vitesse": 117.9,
+            "geo": {
+                "lat": 43.139758,
+                "lon": 16.855677
+            },
+            "timestamp": "1653274968",
+            "immatriculation": "CS-529-MR"
+        }
+    ]
+}
