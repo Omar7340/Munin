@@ -92,19 +92,19 @@ def send_data(json_data):
         if data['type'] == "periodique":
             topic = MOSQUITTO_SETTINGS['topics'][0]
         elif data['type'] == "ponctuelle":
-            topic = MOSQUITTO_SETTINGS['topics'][0]
+            topic = MOSQUITTO_SETTINGS['topics'][1]
         else:
             logging.error(f"JSON Data bad construction => file: '{file}'")
             msg_error += 1
         
         data = json.dumps(data, indent=4)
 
-        logging.info(f"Sending data to topic '{topic}' : data => '{data}'")
+        logging.info(f"Sending data to topic '{topic}'")
         result = client.publish(topic, data)
     
         status = result[0]
         if status == 0:
-            print(f"Message `{data}` has been sent to topic `{topic}`")
+            print(f"Message `{msg_count+1}` has been sent to topic `{topic}`")
         else:
             print(f"Failed to send message to topic {topic}")
     

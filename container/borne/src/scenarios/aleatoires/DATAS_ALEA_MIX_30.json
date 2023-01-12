@@ -1,0 +1,24 @@
+{
+    "packets": [
+        {
+            "type": "periodique",
+            "vitesse": 20.1,
+            "geo": {
+                "lat": 43.862694,
+                "lon": 16.78382
+            },
+            "timestamp": "1669721362",
+            "immatriculation": "IS-876-TO"
+        },
+        {
+            "type": "ponctuelle",
+            "accident": true,
+            "geo": {
+                "lat": 43.186692,
+                "lon": 16.713052
+            },
+            "timestamp": "1655265890",
+            "immatriculation": "AT-608-SO"
+        }
+    ]
+}

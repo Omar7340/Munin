@@ -6,4 +6,4 @@ COPY ./src/ .
 
 RUN pip install -Ur requirements.txt
 
-ENTRYPOINT [ "python", "borne.py", "scenarios/aleatoires/DATAS_ALEA_MIX_1000.json" ]
+ENTRYPOINT [ "python", "borne.py", "scenarios/aleatoires/DATAS_ALEA_MIX_LOURD.json" ]
