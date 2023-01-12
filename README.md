@@ -7,7 +7,7 @@ Projet IOT CNAM Janvier 2023
 
 Pour plus de précision voir __doc/Mineur IOT - Rapport d'analyse - Projet 1 - Omar OUHBAD et Mohamed-Ali BENZINA.pdf__
 
-## Deployment
+## Deploiement
 
 Instruction pour deployer sur une machine virtuelle remotlabz.
 
