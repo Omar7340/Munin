@@ -6,4 +6,4 @@ COPY ./src/ .
 
 RUN pip install -Ur requirements.txt
 
-ENTRYPOINT [ "python", "cdc.py" ]
+ENTRYPOINT [ "python", "agregateur.py" ]

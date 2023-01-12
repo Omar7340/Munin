@@ -59,8 +59,8 @@ services:
       - 1883:1883
       - 9001:9001
     
-  cdc:
-    build: ./container/cdc/
+  cdc_agragateur:
+    build: ./container/cdc/agregateur/
     restart: on-failure
     environment: *common-variables
     depends_on: 
@@ -69,6 +69,14 @@ services:
       mosquitto:
         condition: service_started
 
+  cdc_analyseur:
+    build: ./container/cdc/analyseur/
+    restart: on-failure
+    environment: *common-variables
+    depends_on: 
+      grafana_db:
+        condition: service_healthy
+
   borne:
     build: ./container/borne/
     restart: on-failure
@@ -76,7 +84,7 @@ services:
     depends_on:
       mosquitto:
         condition: service_started
-      cdc:
+      cdc_agragateur:
         condition: service_started
 
 volumes:
