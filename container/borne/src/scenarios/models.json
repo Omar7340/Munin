@@ -2,10 +2,10 @@
     "packets": [
         {
             "type": "periodique",
-            "vitesse": "55.6",
+            "vitesse": 55.6,
             "geo": {
-                "lat": "43.174797",
-                "lon": "16.441231"
+                "lat": 43.174797,
+                "lon": 16.441231
             },
             "timestamp": "1695404382",
             "immatriculation": "AA-123-BB"
@@ -14,8 +14,8 @@
             "type": "ponctuelle",
             "accident": true,
             "geo": {
-                "lat": "43.174797",
-                "lon": "16.441231"
+                "lat": 43.174797,
+                "lon": 16.441231
             },
             "timestamp": "1673443961",
             "immatriculation": "AA-123-BB"
