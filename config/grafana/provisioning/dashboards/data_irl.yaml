@@ -6,7 +6,7 @@ providers:
   # <int> org id. will default to orgId 1 if not specified
   orgId: 1
   # <string, required> name of the dashboard folder. Required
-  folder: ''
+  folder: 'General'
   # <string, required> provider type. Required
   type: file
   # <bool> disable dashboard deletion

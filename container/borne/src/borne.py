@@ -4,6 +4,7 @@ import logging
 import json
 import paho.mqtt.client as mqtt
 import random
+import time
 
 
 #########################
@@ -88,6 +89,9 @@ def send_data(json_data):
     msg_count = 0
     msg_error = 0
 
+    count_until_pause = 200
+    count_temp = 0
+
     for data in json_data['packets']:
         if data['type'] == "periodique":
             topic = MOSQUITTO_SETTINGS['topics'][0]
@@ -108,7 +112,12 @@ def send_data(json_data):
         else:
             print(f"Failed to send message to topic {topic}")
     
+        if count_temp == count_until_pause:
+            count_temp = 0
+            time.sleep(3)
+
         msg_count += 1
+        count_temp +=1
 
     logging.info(f"'{msg_count}' messages published with '{msg_error}' errors")
 
