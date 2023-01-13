@@ -9,20 +9,19 @@ Pour plus de précision voir __doc/Mineur IOT - Rapport d'analyse - Projet 1 - O
 
 ## Déploiement
 
-Instruction pour deployer sur une machine virtuelle remotlabz.
-
-Installation de docket et git
+Installation de docker et git
 
 ```bash
   sudo install.sh
 ```
 
-Construction et Deploiement des containers docker
+Construction et déploiement des conteneurs docker
 
 ```bash
   sudo docker compose up
 ```
 
-L'installation du conteneur de base de données prend plusieurs minutes.
-
-Une fois les conteneurs démarrés, les données sont envoyées sur le broker par la borne puis elles seront récupérés par le centre de contrôle (CDC) dans le broker et stocké dans la base de donées.
+Après le démarrage des conteneurs, voici le fonctionnement normal de ce projet :
+- La borne envoie les données sur Mosquitto
+- Le centre de contrôle (côté agregateur) récupére les données sur le broker et les enregistre dans la base de données
+- Le centre de contrôle (côté analyseur) récupère les données non analysées sur la base de données et les analysent (détection accident, détection embouteillage)
