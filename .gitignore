@@ -1,3 +1,4 @@
 log_mosquitto
 *.log
 .env
+container/borne/src/scenarios/aleatoires/__pycache__/generate_scenarios_coherent.cpython-310.pyc

@@ -31,14 +31,17 @@ def generate_immatriculation():
 
     return "-".join([a.upper(),b,c.upper()])
 
-def generate_packet_perio(isembouteillage=False):
+def get_timestamp():
+    return str(round(datetime.timestamp(datetime.now())))
+
+def generate_packet_perio(isembouteillage=False, timestamp=False):
     if isembouteillage:
         # Generating first point
         a = { "type": "periodique"}
 
         a["vitesse"] = round(random.uniform(0, 80), 1)
 
-        a["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        a["timestamp"] = timestamp if timestamp else get_timestamp()
         a["immatriculation"] = generate_immatriculation()
     
         a["geo"] = generate_coordinates()
@@ -48,7 +51,7 @@ def generate_packet_perio(isembouteillage=False):
 
         b["vitesse"] = round(random.uniform(0, 80), 1)
 
-        b["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        b["timestamp"] = timestamp if timestamp else get_timestamp()
         b["immatriculation"] = generate_immatriculation()
     
         b["geo"] = generate_coordinates_close_to(a["geo"]["lat"], a["geo"]["lon"])
@@ -58,7 +61,7 @@ def generate_packet_perio(isembouteillage=False):
 
         c["vitesse"] = round(random.uniform(0, 80), 1)
 
-        c["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        c["timestamp"] = timestamp if timestamp else get_timestamp()
         c["immatriculation"] = generate_immatriculation()
     
         c["geo"] = generate_coordinates_close_to(b["geo"]["lat"], b["geo"]["lon"])
@@ -70,7 +73,7 @@ def generate_packet_perio(isembouteillage=False):
 
         data["vitesse"] = round(random.uniform(90, 100), 1)
 
-        data["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        data["timestamp"] = timestamp if timestamp else get_timestamp()
         data["immatriculation"] = generate_immatriculation()
 
         data["geo"] = generate_coordinates()
@@ -78,12 +81,12 @@ def generate_packet_perio(isembouteillage=False):
         return [data]
 
 
-def generate_packet_ponct(close=False):
+def generate_packet_ponct(close=False, timestamp=False):
     if close:
         # Generating first point
         a = { "type": "ponctuelle", "accident": True }
 
-        a["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        a["timestamp"] = timestamp if timestamp else get_timestamp()
         a["immatriculation"] = generate_immatriculation()
     
         a["geo"] = generate_coordinates()
@@ -91,7 +94,7 @@ def generate_packet_ponct(close=False):
         # Generating second point close to first one
         b = { "type": "ponctuelle", "accident": True }
 
-        b["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        b["timestamp"] = timestamp if timestamp else get_timestamp()
         b["immatriculation"] = generate_immatriculation()
     
         b["geo"] = generate_coordinates_close_to(a["geo"]["lat"], a["geo"]["lon"])
@@ -100,7 +103,7 @@ def generate_packet_ponct(close=False):
     else:
         data = { "type": "ponctuelle", "accident": True }
 
-        data["timestamp"] = str(round(datetime.timestamp(datetime.now())))
+        data["timestamp"] = timestamp if timestamp else get_timestamp()
         data["immatriculation"] = generate_immatriculation()
 
         data["geo"] = generate_coordinates()

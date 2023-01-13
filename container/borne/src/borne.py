@@ -122,7 +122,12 @@ def run():
     """ Execute program borne
     """
     data_file = sys.argv[1]
-    play_data(data_file)
+
+    if os.path.isfile(data_file):
+        play_data(data_file)
+    else:
+        for filename in os.listdir(data_file):
+            play_data(data_file + "/" +filename)
 
 
 if __name__ == '__main__':
