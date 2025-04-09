@@ -18,7 +18,7 @@ x-common-variables: &common-variables
 
 services:
   grafana_db:
-    image: mysql
+    image: mysql:9.2.0
     environment: *common-variables
     volumes:
       - ./container/db:/docker-entrypoint-initdb.d
@@ -59,7 +59,7 @@ services:
       - 1883:1883
       - 9001:9001
     
-  cdc_agragateur:
+  cdc_agregateur:
     build: ./container/cdc/agregateur/
     restart: on-failure
     environment: *common-variables
@@ -84,7 +84,7 @@ services:
     depends_on:
       mosquitto:
         condition: service_started
-      cdc_agragateur:
+      cdc_agregateur:
         condition: service_started
 
 volumes:
